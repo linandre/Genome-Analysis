@@ -14,6 +14,8 @@ module load bioinfo-tools trimmomatic
 cd ~/genome_analysis/GenomeAnalysis/data/trimmed_data/RNA_trimmed/
 
 java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE \
+/home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/*
+
 ~/genome_analysis/GenomeAnalysis/data/raw_data/RNA_raw/SRR4342137.1.fastq.gz \
 ~/genome_analysis/GenomeAnalysis/data/raw_data/RNA_raw/SRR4342137.2.fastq.gz \
 RNA_trim_D1_1.paired.trimmed.fastq.gz \
