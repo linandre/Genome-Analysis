@@ -1,0 +1,21 @@
+29/03
+- connected github with uppmax following https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
+- create diractories for my analysis
+    /home/andreak/Genome_Analysis/Genome-Analysis/data --> with all the results from the different softwares
+        /FastQC/ -->  DNA_fastqc --> Check quality in trimmed DNA
+                      RNA_fastqc_raw --> Check quality for untrimmed RNA
+                      RNA_fastqc_trimmed --> Check quality for trimmed RNA
+                      
+         /Trimmomatic/ -->  RNA_trim_37.left_paired.trimmed.fastq.gz    
+                            RNA_trim_37.right_unpaired.trimmed.fastq.gz  
+                            RNA_trim_39.right_paired.trimmed.fastq.gz
+                            RNA_trim_37.left_unpaired.trimmed.fastq.gz  
+                            RNA_trim_39.left_paired.trimmed.fastq.gz     
+                            RNA_trim_39.right_unpaired.trimmed.fastq.gz
+                            RNA_trim_37.right_paired.trimmed.fastq.gz   
+                            RNA_trim_39.left_unpaired.trimmed.fastq.gz
+                            
+    /home/andreak/Genome_Analysis/Genome-Analysis/code --> with the scripts used for each analysis
+          /Qc_DNA_RNA/ --> for the quality check of DNA & RNA #DOES NOT WORK 
+                            ERROR: Specified output directory 'OUTDIR/DNA_fastqc' does not exist
+          /Trim_RNA/ --> for trimming
