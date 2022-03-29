@@ -6,7 +6,7 @@
 #SBATCH -t 01:00:00
 #SBATCH -J trim_RNA
 #SBATCH --mail-type=ALL 
-SBATCH --mail-user stavroula.andreakou.9085@student.uu.se 
+#SBATCH --mail-user stavroula.andreakou.9085@student.uu.se 
 
 #script for quality check of trimmed DNA and untrimmed and trimmed RNA.
 
