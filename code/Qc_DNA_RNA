@@ -29,11 +29,11 @@ done
 #Check quality for untrimmed RNA
 for file in SEQDIR/* 
 do 
-fastqc $file -o OUTDIR/RNA_fastqc_trim
+fastqc $file -o OUTDIR/RNA_fastqc_raw
 done
 
 #Check quality for trimmed RNA
-for file in SEQDIR/RNA_trimmed/*
+for file in SQD/*
 do 
 fastqc $file -o OUTDIR/RNA_fastqc_trimmed
 done
