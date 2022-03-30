@@ -14,11 +14,11 @@
 module load bioinfo-tools 
 module load FastQC
 
-SEQDIR="/home/andreak/Genome_Analysis/3_Thrash_2017"
-OUTDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/FastQC"
+#SEQDIR="/home/andreak/Genome_Analysis/3_Thrash_2017"
+#OUTDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/FastQC"
 
 #input for trimmed RNA 
-SQD="/home/andreak/Genome_Analysis/Genome-Analysis/data/Trimmomatic"
+#SQD="/home/andreak/Genome_Analysis/Genome-Analysis/data/Trimmomatic"
 
 #Check quality in trimmed DNA
 for file in /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/* 
