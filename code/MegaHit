@@ -1,0 +1,19 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 20:00:00
+#SBATCH -J megahit
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user stavroula.andreakou.9085@student.uu.se
+
+# Load modules
+module load bioinfo-tools
+module load megahit
+
+# Paper's parameters (IBDA-UB) -mink 65 -maxk 105 -step 10
+#Commands
+
+megahit -1 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz -2 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/SRR4342129_contigs
+megahit -1 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/SRR4342133_contigs
