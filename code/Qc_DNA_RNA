@@ -2,7 +2,7 @@
 #SBATCH -A uppmax2022-2-5
 #SBATCH -M snowy
 #SBATCH -p core
-#SBATCH -n 2
+#SBATCH -n 1
 #SBATCH -t 01:00:00
 #SBATCH -J trim_RNA
 #SBATCH --mail-type=ALL 
@@ -23,7 +23,7 @@ SQD="/home/andreak/Genome_Analysis/Genome-Analysis/data/Trimmomatic"
 #Check quality in trimmed DNA
 for file in SEQDIR/DNA_trimmed/* 
 do 
-fastqc $file -o OUTDIR/DNA_fastqc 
+fastqc $file -o OUTDIR 
 done
 
 #Check quality for untrimmed RNA
