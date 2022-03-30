@@ -21,7 +21,7 @@ OUTDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/FastQC"
 SQD="/home/andreak/Genome_Analysis/Genome-Analysis/data/Trimmomatic"
 
 #Check quality in trimmed DNA
-for file in SEQDIR/DNA_trimmed/* 
+for file in /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/* 
 do 
 fastqc $file -o /home/andreak/Genome_Analysis/Genome-Analysis/data/FastQC 
 done
