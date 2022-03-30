@@ -23,7 +23,7 @@ SQD="/home/andreak/Genome_Analysis/Genome-Analysis/data/Trimmomatic"
 #Check quality in trimmed DNA
 for file in SEQDIR/DNA_trimmed/* 
 do 
-fastqc $file -o OUTDIR 
+fastqc $file -o /home/andreak/Genome_Analysis/Genome-Analysis/data/FastQC 
 done
 
 #Check quality for untrimmed RNA
