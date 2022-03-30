@@ -23,17 +23,17 @@ module load FastQC
 #Check quality in trimmed DNA
 for file in /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/* 
 do 
-fastqc $file -o /home/andreak/Genome_Analysis/Genome-Analysis/data/FastQC 
+fastqc $file -o /home/andreak/Genome_Analysis/Genome-Analysis/data/FastQC/DNA_fastqc
 done
 
 #Check quality for untrimmed RNA
-#for file in SEQDIR/* 
-#do 
-#fastqc $file -o OUTDIR/RNA_fastqc_raw
-#done
+for file in /home/andreak/Genome_Analysis/3_Thrash_2017/RNA_untrimmed* 
+do 
+fastqc $file -o /home/andreak/Genome_Analysis/Genome-Analysis/data/FastQC/RNA_untrim_fastqc
+done
 
 #Check quality for trimmed RNA
-#for file in SQD/*
-#do 
-#fastqc $file -o OUTDIR/RNA_fastqc_trimmed
-#done
+for file in /home/andreak/Genome_Analysis/Genome-Analysis/data/Trimmomatic/*
+do 
+fastqc $file -o /home/andreak/Genome_Analysis/Genome-Analysis/data/FastQC/RNA_trim_fastqc
+done
