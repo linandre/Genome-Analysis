@@ -12,8 +12,11 @@
 module load bioinfo-tools
 module load megahit
 
-# Paper's parameters (IBDA-UB) -mink 65 -maxk 105 -step 10
-#Commands
+# Paper's parameters -mink 65 -maxk 105 -step 10
+
+# Megahit to do the assembly for D1 - my commands
 
 megahit -1 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz -2 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/SRR4342129_contigs
+
+# Megahit to do the assembly for D3 - my commands
 megahit -1 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/SRR4342133_contigs
