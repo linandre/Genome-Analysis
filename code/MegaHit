@@ -12,15 +12,13 @@
 module load bioinfo-tools
 module load megahit
 
-# quality-filtered reads were assembled with IDBA-UD (79) on a 1TB RAM, 40-core node at the Louisiana State University high-performance computing cluster SuperMikeII, using the following settings: -mink 65 -maxk 105 -step 10 -pre_correction -seed_kmer 55
+#  In the paper they used the following settings: -mink 65 -maxk 105 -step 10 -pre_correction -seed_kmer 55 in the IDBA-UD software.
+# -t 2 : use 2 threads (number of parallel processors)
+# --kmin-1pass : if sequencing depth is low and too much memory used when build the graph of k_min
 
 # Megahit to do the assembly for D1 - my commands
+megahit -1 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz -2 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz --k-min 65 --k-max 105 --k-step 10 -t 2 --kmin-1pass -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs
 
-megahit -1 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz -2 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs
 
-# -t 2
-#--k-min 65 --k-max 105 --k-step 10 --kmin-1pass -1
-#-mink 65 -maxk 105 -step 10 -pre_correction -seed_kmer 55
 # Megahit to do the assembly for D3 - my commands
-
-megahit -1 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs
+megahit -1 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz -2 /home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz --k-min 65 --k-max 105 --k-step 10 -t 2 --kmin-1pass -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs
