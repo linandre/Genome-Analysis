@@ -34,8 +34,12 @@
 
 31/3
 - run Qc_DNA_RNA worked! problem with the output folder
-- run /home/andreak/Genome_Analysis/Genome-Analysis/code/Megahit
+- run /home/andreak/Genome_Analysis/Genome-Analysis/code/MegaHit
 
 1/4
-- Megahit was running for 15 hours so run Megahit again using the parameters from the paper
+- Megahit was running for 15 hours so run MegaHit again using the parameters from the paper
+- output of Megahit is stored:
+	/home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit
+		/D1-SRR4342129_contigs  
+		/D3-SRR4342133_contigs
 - soft link the raw data 
