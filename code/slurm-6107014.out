@@ -1,0 +1,58 @@
+2022-03-31 18:45:54 - MEGAHIT v1.2.9
+2022-03-31 18:45:54 - Using megahit_core with POPCNT support
+2022-03-31 18:45:54 - Convert reads to binary library
+2022-03-31 18:47:55 - INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz,/home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz): pe, 48110692 reads, 101 max length
+2022-03-31 18:47:55 - INFO  utils/utils.h                 :  152 - Real: 121.4593	user: 48.2995	sys: 6.3957	maxrss: 273432
+2022-03-31 18:47:55 - Start assembly. Number of CPU threads 2 
+2022-03-31 18:47:55 - k list: 65,75,85,95,105 
+2022-03-31 18:47:55 - Memory used: 121485610598
+2022-03-31 18:47:55 - Extracting solid (k+1)-mers and building sdbg for k = 65
+2022-03-31 19:16:59 - Assemble contigs from SdBG for k = 65
+2022-03-31 19:35:00 - Local assembly for k = 65
+2022-03-31 19:51:53 - Extract iterative edges from k = 65 to 75 
+2022-03-31 19:55:14 - Build graph for k = 75 
+2022-03-31 19:56:58 - Assemble contigs from SdBG for k = 75
+2022-03-31 20:04:22 - Local assembly for k = 75
+2022-03-31 20:15:45 - Extract iterative edges from k = 75 to 85 
+2022-03-31 20:17:59 - Build graph for k = 85 
+2022-03-31 20:19:21 - Assemble contigs from SdBG for k = 85
+2022-03-31 20:26:28 - Local assembly for k = 85
+2022-03-31 20:36:14 - Extract iterative edges from k = 85 to 95 
+2022-03-31 20:37:48 - Build graph for k = 95 
+2022-03-31 20:38:58 - Assemble contigs from SdBG for k = 95
+2022-03-31 20:45:45 - Local assembly for k = 95
+2022-03-31 20:52:40 - Extract iterative edges from k = 95 to 105 
+2022-03-31 20:52:44 - Build graph for k = 105 
+2022-03-31 20:53:38 - Assemble contigs from SdBG for k = 105
+2022-03-31 20:59:16 - Merging to output final contigs 
+2022-03-31 20:59:18 - 161952 contigs, total 123859441 bp, min 200 bp, max 131335 bp, avg 764 bp, N50 824 bp
+2022-03-31 20:59:18 - ALL DONE. Time elapsed: 8004.161216 seconds 
+2022-03-31 20:59:18 - MEGAHIT v1.2.9
+2022-03-31 20:59:18 - Using megahit_core with POPCNT support
+2022-03-31 20:59:18 - Convert reads to binary library
+2022-03-31 21:02:03 - INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz,/home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz): pe, 59954188 reads, 101 max length
+2022-03-31 21:02:05 - INFO  utils/utils.h                 :  152 - Real: 166.8664	user: 63.9497	sys: 8.2847	maxrss: 273368
+2022-03-31 21:02:05 - Start assembly. Number of CPU threads 2 
+2022-03-31 21:02:05 - k list: 65,75,85,95,105 
+2022-03-31 21:02:05 - Memory used: 121485610598
+2022-03-31 21:02:05 - Extracting solid (k+1)-mers and building sdbg for k = 65
+2022-03-31 21:43:45 - Assemble contigs from SdBG for k = 65
+2022-03-31 22:05:48 - Local assembly for k = 65
+2022-03-31 22:32:44 - Extract iterative edges from k = 65 to 75 
+2022-03-31 22:37:02 - Build graph for k = 75 
+2022-03-31 22:39:42 - Assemble contigs from SdBG for k = 75
+2022-03-31 22:50:00 - Local assembly for k = 75
+2022-03-31 23:09:30 - Extract iterative edges from k = 75 to 85 
+2022-03-31 23:12:42 - Build graph for k = 85 
+2022-03-31 23:14:52 - Assemble contigs from SdBG for k = 85
+2022-03-31 23:23:50 - Local assembly for k = 85
+2022-03-31 23:38:11 - Extract iterative edges from k = 85 to 95 
+2022-03-31 23:40:29 - Build graph for k = 95 
+2022-03-31 23:42:23 - Assemble contigs from SdBG for k = 95
+2022-03-31 23:50:33 - Local assembly for k = 95
+2022-04-01 00:01:15 - Extract iterative edges from k = 95 to 105 
+2022-04-01 00:01:21 - Build graph for k = 105 
+2022-04-01 00:02:37 - Assemble contigs from SdBG for k = 105
+2022-04-01 00:09:23 - Merging to output final contigs 
+2022-04-01 00:09:25 - 166148 contigs, total 150487838 bp, min 200 bp, max 266140 bp, avg 905 bp, N50 1156 bp
+2022-04-01 00:09:25 - ALL DONE. Time elapsed: 11407.207893 seconds 

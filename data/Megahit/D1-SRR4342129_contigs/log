@@ -1,0 +1,728 @@
+2022-03-31 18:45:54 - MEGAHIT v1.2.9
+2022-03-31 18:45:54 - Using megahit_core with POPCNT support
+2022-03-31 18:45:54 - Convert reads to binary library
+2022-03-31 18:45:54 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt buildlib /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib
+2022-03-31 18:47:55 - INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz,/home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz): pe, 48110692 reads, 101 max length
+2022-03-31 18:47:55 - INFO  utils/utils.h                 :  152 - Real: 121.4593	user: 48.2995	sys: 6.3957	maxrss: 273432
+2022-03-31 18:47:55 - Start assembly. Number of CPU threads 2 
+2022-03-31 18:47:55 - k list: 65,75,85,95,105 
+2022-03-31 18:47:55 - Memory used: 121485610598
+2022-03-31 18:47:55 - Extracting solid (k+1)-mers and building sdbg for k = 65
+2022-03-31 18:47:55 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt read2sdbg -k 65 -m 2 --host_mem 1.21485610598e+11 --mem_flag 1 --output_prefix /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65 --num_cpu_threads 2 --read_lib_file /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib --need_mercy
+2022-03-31 18:47:55 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2022-03-31 18:47:55 - INFO  sequence/io/sequence_lib.cpp  :  115 - Before reading, sizeof seq_package: 1587896336
+2022-03-31 18:48:00 - INFO  sequence/io/sequence_lib.cpp  :  117 - After reading, sizeof seq_package: 1587896336
+2022-03-31 18:48:00 - INFO  sorting/read_to_sdbg_s1.cpp   :  103 - 48110692 reads, 101 max read length, 4812043160 total bases
+2022-03-31 18:48:00 - INFO  sorting/read_to_sdbg_s1.cpp   :  109 - 5 words per substring
+2022-03-31 18:48:00 - INFO  sorting/read_to_sdbg_s1.cpp   :  123 - Number of files for mercy candidate reads: 8
+2022-03-31 18:48:00 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 4.8895
+2022-03-31 18:48:00 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2022-03-31 18:48:20 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 2305532039 bytes
+2022-03-31 18:48:21 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 250557595, Lv2 items: 661889
+2022-03-31 18:48:21 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 2228044419, Memory for Lv1+Lv2: 1020763272
+2022-03-31 18:48:21 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 20.3059
+2022-03-31 18:48:21 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2022-03-31 18:48:21 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 1775
+2022-03-31 18:48:43 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 22.7292
+2022-03-31 18:50:35 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 111.2204
+2022-03-31 18:50:35 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 1775 to 5274
+2022-03-31 18:50:59 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 24.0154
+2022-03-31 18:52:55 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 116.7812
+2022-03-31 18:52:55 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 5274 to 10083
+2022-03-31 18:53:20 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 24.5676
+2022-03-31 18:55:17 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 117.5005
+2022-03-31 18:55:17 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 10083 to 16226
+2022-03-31 18:55:43 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 25.4636
+2022-03-31 18:57:39 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 115.6598
+2022-03-31 18:57:39 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 16226 to 24074
+2022-03-31 18:58:04 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 25.7082
+2022-03-31 19:00:00 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 115.2256
+2022-03-31 19:00:00 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 24074 to 34495
+2022-03-31 19:00:26 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 26.9792
+2022-03-31 19:02:24 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 117.3724
+2022-03-31 19:02:24 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 34495 to 50494
+2022-03-31 19:02:54 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 29.6692
+2022-03-31 19:04:50 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 116.2695
+2022-03-31 19:04:50 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 50494 to 65536
+2022-03-31 19:05:13 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 23.4035
+2022-03-31 19:05:58 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 44.9463
+2022-03-31 19:05:58 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 1057.5186
+2022-03-31 19:05:58 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2022-03-31 19:05:58 - INFO  sorting/read_to_sdbg_s1.cpp   :  559 - Total number of solid edges: 227324605
+2022-03-31 19:05:58 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 0.1648
+2022-03-31 19:05:58 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2022-03-31 19:05:58 - INFO  sorting/read_to_sdbg_s2.cpp   :  102 - 5 words per substring, words per dummy node ($v): 5
+2022-03-31 19:05:58 - INFO  sorting/read_to_sdbg_s2.cpp   :  130 - Adding mercy edges...
+2022-03-31 19:05:59 - INFO  sorting/read_to_sdbg_s2.cpp   :  154 - Mercy file: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65.mercy_cand.0, 13004098
+2022-03-31 19:06:00 - INFO  sorting/read_to_sdbg_s2.cpp   :  154 - Mercy file: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65.mercy_cand.1, 13167162
+2022-03-31 19:06:01 - INFO  sorting/read_to_sdbg_s2.cpp   :  154 - Mercy file: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65.mercy_cand.2, 13001968
+2022-03-31 19:06:03 - INFO  sorting/read_to_sdbg_s2.cpp   :  154 - Mercy file: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65.mercy_cand.3, 13160112
+2022-03-31 19:06:04 - INFO  sorting/read_to_sdbg_s2.cpp   :  154 - Mercy file: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65.mercy_cand.4, 13003821
+2022-03-31 19:06:05 - INFO  sorting/read_to_sdbg_s2.cpp   :  154 - Mercy file: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65.mercy_cand.5, 13162140
+2022-03-31 19:06:06 - INFO  sorting/read_to_sdbg_s2.cpp   :  154 - Mercy file: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65.mercy_cand.6, 13007596
+2022-03-31 19:06:08 - INFO  sorting/read_to_sdbg_s2.cpp   :  154 - Mercy file: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65.mercy_cand.7, 13167224
+2022-03-31 19:06:09 - INFO  sorting/read_to_sdbg_s2.cpp   :  265 - Adding mercy Done. Time elapsed: 10.3389
+2022-03-31 19:06:09 - INFO  sorting/read_to_sdbg_s2.cpp   :  266 - Number mercy: 26870949
+2022-03-31 19:06:09 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 10.3605
+2022-03-31 19:06:09 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2022-03-31 19:06:27 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 2281822827 bytes
+2022-03-31 19:06:28 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 207670495, Lv2 items: 298167
+2022-03-31 19:06:28 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 2226995843, Memory for Lv1+Lv2: 836645320
+2022-03-31 19:06:28 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 19.0838
+2022-03-31 19:06:28 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2022-03-31 19:06:28 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 2579
+2022-03-31 19:06:52 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 24.0465
+2022-03-31 19:07:43 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 51.2584
+2022-03-31 19:07:43 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 2579 to 7116
+2022-03-31 19:08:09 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 25.6172
+2022-03-31 19:09:04 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 55.1416
+2022-03-31 19:09:04 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 7116 to 13107
+2022-03-31 19:09:30 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 26.0099
+2022-03-31 19:10:27 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 57.4600
+2022-03-31 19:10:27 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 13107 to 20492
+2022-03-31 19:10:53 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 26.0359
+2022-03-31 19:11:51 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 57.4899
+2022-03-31 19:11:51 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 20492 to 29365
+2022-03-31 19:12:17 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 26.4092
+2022-03-31 19:13:16 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 58.3393
+2022-03-31 19:13:16 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 29365 to 40224
+2022-03-31 19:13:43 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 27.1607
+2022-03-31 19:14:42 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 58.7234
+2022-03-31 19:14:42 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 40224 to 54604
+2022-03-31 19:15:09 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 27.1800
+2022-03-31 19:16:07 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 58.4683
+2022-03-31 19:16:07 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 54604 to 65536
+2022-03-31 19:16:31 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 23.4458
+2022-03-31 19:16:58 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 27.1690
+2022-03-31 19:16:58 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 629.9637
+2022-03-31 19:16:58 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2022-03-31 19:16:58 - INFO  sorting/read_to_sdbg_s2.cpp   :  618 - Number of $ A C G T A- C- G- T-:
+2022-03-31 19:16:58 - INFO  sorting/read_to_sdbg_s2.cpp   :  619 - 10843403 138587678 120276151 120019521 139284124 184593 175172 124157 208923
+2022-03-31 19:16:58 - INFO  sorting/read_to_sdbg_s2.cpp   :  624 - Total number of edges: 529703722
+2022-03-31 19:16:58 - INFO  sorting/read_to_sdbg_s2.cpp   :  625 - Total number of ONEs: 518167474
+2022-03-31 19:16:58 - INFO  sorting/read_to_sdbg_s2.cpp   :  626 - Total number of $v edges: 10843403
+2022-03-31 19:16:58 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 0.3974
+2022-03-31 19:16:59 - INFO  utils/utils.h                 :  152 - Real: 1743.2400	user: 3364.4760	sys: 64.9188	maxrss: 3180244
+2022-03-31 19:16:59 - Assemble contigs from SdBG for k = 65
+2022-03-31 19:16:59 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt assemble -s /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65 -t 2 --min_standalone 300 --prune_level 2 --merge_len 20 --merge_similar 0.95 --cleaning_rounds 5 --disconnect_ratio 0.1 --low_local_ratio 0.2 --cleaning_rounds 5 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+2022-03-31 19:17:11 - INFO  main_assemble.cpp             :  129 - Loading succinct de Bruijn graph: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k65/65Done. Time elapsed: 11.820160
+2022-03-31 19:17:11 - INFO  main_assemble.cpp             :  133 - Number of Edges: 529703722; K value: 65
+2022-03-31 19:17:11 - INFO  main_assemble.cpp             :  140 - Number of CPU threads: 2
+2022-03-31 19:18:17 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 2; Accumulated tips removed: 247516; time elapsed: 8.2553
+2022-03-31 19:18:34 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 4; Accumulated tips removed: 732634; time elapsed: 17.4690
+2022-03-31 19:19:24 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 8; Accumulated tips removed: 1585866; time elapsed: 49.9026
+2022-03-31 19:21:19 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 16; Accumulated tips removed: 3102602; time elapsed: 114.9516
+2022-03-31 19:24:26 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 32; Accumulated tips removed: 6005568; time elapsed: 186.3870
+2022-03-31 19:27:17 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 64; Accumulated tips removed: 9897881; time elapsed: 171.4056
+2022-03-31 19:29:13 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 128; Accumulated tips removed: 10861603; time elapsed: 116.3524
+2022-03-31 19:30:28 - INFO  assembly/sdbg_pruning.cpp     :  169 - Removing tips with length less than 130; Accumulated tips removed: 10884765; time elapsed: 74.7542
+2022-03-31 19:30:28 - INFO  main_assemble.cpp             :  158 - Tips removal done! Time elapsed(sec): 797.366
+2022-03-31 19:32:47 - INFO  assembly/unitig_graph.cpp     :   83 - Graph size without loops: 507953, palindrome: 3
+2022-03-31 19:32:50 - INFO  main_assemble.cpp             :  166 - unitig graph size: 511441, time for building: 141.586
+2022-03-31 19:32:50 - INFO  assembly/contig_stat.h        :   40 - Max: 12711, Min: 66, N50: 265, number contigs: 511441, number isolated: 279772, number looped: 3488, total size: 121840877,
+2022-03-31 19:32:50 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 1
+2022-03-31 19:32:56 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 15738, Time elapsed(sec): 6.209
+2022-03-31 19:33:00 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 6208, Time elapsed(sec): 4.015631
+2022-03-31 19:33:01 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 5241, time: 0.618
+2022-03-31 19:33:01 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 51, time: 0.410
+2022-03-31 19:33:01 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 2
+2022-03-31 19:33:04 - INFO  main_assemble.cpp             :  192 - Tips removed: 5953, time: 2.706
+2022-03-31 19:33:05 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 333, Time elapsed(sec): 0.743
+2022-03-31 19:33:06 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 150, Time elapsed(sec): 0.839982
+2022-03-31 19:33:06 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 41, time: 0.600
+2022-03-31 19:33:06 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.082
+2022-03-31 19:33:06 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 3
+2022-03-31 19:33:09 - INFO  main_assemble.cpp             :  192 - Tips removed: 14, time: 2.551
+2022-03-31 19:33:09 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 6, Time elapsed(sec): 0.676
+2022-03-31 19:33:10 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.768187
+2022-03-31 19:33:11 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 3, time: 0.597
+2022-03-31 19:33:11 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.081
+2022-03-31 19:33:11 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 4
+2022-03-31 19:33:13 - INFO  main_assemble.cpp             :  192 - Tips removed: 3, time: 2.519
+2022-03-31 19:33:14 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.696
+2022-03-31 19:33:15 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.798615
+2022-03-31 19:33:15 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 1, time: 0.588
+2022-03-31 19:33:16 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.081
+2022-03-31 19:33:16 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 5
+2022-03-31 19:33:18 - INFO  main_assemble.cpp             :  192 - Tips removed: 0, time: 2.505
+2022-03-31 19:33:19 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.661
+2022-03-31 19:33:20 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.756349
+2022-03-31 19:33:20 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 1, time: 0.574
+2022-03-31 19:33:20 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.078
+2022-03-31 19:33:20 - INFO  assembly/contig_stat.h        :   40 - Max: 33992, Min: 66, N50: 286, number contigs: 433695, number isolated: 283493, number looped: 78, total size: 114819835,
+2022-03-31 19:34:04 - INFO  main_assemble.cpp             :  267 - Time to output: 43.568905
+2022-03-31 19:34:17 - INFO  main_assemble.cpp             :  286 - Number of local low depth unitigs removed: 5030, complex bubbles removed: 904, time: 13.039037
+2022-03-31 19:34:17 - INFO  assembly/contig_stat.h        :   40 - Max: 33992, Min: 66, N50: 289, number contigs: 417290, number isolated: 283540, number looped: 85, total size: 113372769,
+2022-03-31 19:35:00 - INFO  utils/utils.h                 :  152 - Real: 1080.8267	user: 2072.1566	sys: 23.2287	maxrss: 1365516
+2022-03-31 19:35:00 - Local assembly for k = 65
+2022-03-31 19:35:00 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt local -c /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.contigs.fa -l /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib -t 2 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.local.fa --kmax 75
+2022-03-31 19:35:07 - INFO  localasm/hash_mapper.cpp      :   99 - Number of contigs: 296385, index size: 11275775
+2022-03-31 19:35:07 - INFO  localasm/local_assemble.cpp   :  315 - Hash mapper construction time elapsed: 6.619365
+2022-03-31 19:35:07 - INFO  sequence/io/sequence_lib.cpp  :  115 - Before reading, sizeof seq_package: 1587896336
+2022-03-31 19:35:11 - INFO  sequence/io/sequence_lib.cpp  :  117 - After reading, sizeof seq_package: 1587896336
+2022-03-31 19:35:11 - INFO  localasm/local_assemble.cpp   :  324 - Read lib time elapsed: 4.277532
+2022-03-31 19:35:21 - INFO  localasm/local_assemble.cpp   :  133 - Lib 0, insert size: 169.00 sd: 14.55
+2022-03-31 19:35:21 - INFO  localasm/local_assemble.cpp   :  330 - Insert size estimation time elapsed: 9.957258
+2022-03-31 19:38:17 - INFO  localasm/local_assemble.cpp   :  218 - Lib 0: total 48110692 reads, aligned 12959263, added 3386934 reads to local assembly
+2022-03-31 19:38:17 - INFO  localasm/local_assemble.cpp   :  338 - Mapping time elapsed: 176.053065
+2022-03-31 19:38:17 - INFO  localasm/local_assemble.cpp   :  232 - Minimum number of reads to do local assembly: 2
+2022-03-31 19:51:53 - INFO  localasm/local_assemble.cpp   :  346 - Local assembly time elapsed: 815.753459
+2022-03-31 19:51:53 - INFO  utils/utils.h                 :  152 - Real: 1013.2968	user: 1972.3676	sys: 20.4143	maxrss: 2259336
+2022-03-31 19:51:53 - Extract iterative edges from k = 65 to 75 
+2022-03-31 19:51:53 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt iterate -c /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.contigs.fa -b /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.bubble_seq.fa -t 2 -k 65 -s 10 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k75/75 -r /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib.bin
+2022-03-31 19:51:53 - INFO  main_iterate.cpp              :  190 - Selected kmer type size for k: 20
+2022-03-31 19:51:54 - INFO  main_iterate.cpp              :  174 - Read 150202 contigs
+2022-03-31 19:51:54 - INFO  main_iterate.cpp              :  176 - Number of flank kmers: 298414
+2022-03-31 19:51:54 - INFO  main_iterate.cpp              :  174 - Read 63670 contigs
+2022-03-31 19:51:54 - INFO  main_iterate.cpp              :  176 - Number of flank kmers: 398752
+2022-03-31 19:51:54 - INFO  main_iterate.cpp              :  123 - Selected kmer type size for next k: 20
+2022-03-31 19:52:12 - INFO  main_iterate.cpp              :  138 - Processed: 4194304, aligned: 84602. Iterative edges: 571345
+2022-03-31 19:52:29 - INFO  main_iterate.cpp              :  138 - Processed: 8388608, aligned: 171310. Iterative edges: 932384
+2022-03-31 19:52:47 - INFO  main_iterate.cpp              :  138 - Processed: 12582912, aligned: 256515. Iterative edges: 1177271
+2022-03-31 19:53:04 - INFO  main_iterate.cpp              :  138 - Processed: 16777216, aligned: 341930. Iterative edges: 1358597
+2022-03-31 19:53:21 - INFO  main_iterate.cpp              :  138 - Processed: 20971520, aligned: 428526. Iterative edges: 1502739
+2022-03-31 19:53:39 - INFO  main_iterate.cpp              :  138 - Processed: 25165824, aligned: 516202. Iterative edges: 1616785
+2022-03-31 19:53:56 - INFO  main_iterate.cpp              :  138 - Processed: 29360128, aligned: 603485. Iterative edges: 1706498
+2022-03-31 19:54:13 - INFO  main_iterate.cpp              :  138 - Processed: 33554432, aligned: 691927. Iterative edges: 1780255
+2022-03-31 19:54:30 - INFO  main_iterate.cpp              :  138 - Processed: 37748736, aligned: 781530. Iterative edges: 1839168
+2022-03-31 19:54:48 - INFO  main_iterate.cpp              :  138 - Processed: 41943040, aligned: 870173. Iterative edges: 1886465
+2022-03-31 19:55:05 - INFO  main_iterate.cpp              :  138 - Processed: 46137344, aligned: 959322. Iterative edges: 1924948
+2022-03-31 19:55:13 - INFO  main_iterate.cpp              :  138 - Processed: 48110692, aligned: 1001379. Iterative edges: 1940052
+2022-03-31 19:55:13 - INFO  main_iterate.cpp              :  142 - Total: 48110692, aligned: 1001379. Iterative edges: 1940052
+2022-03-31 19:55:14 - INFO  utils/utils.h                 :  152 - Real: 200.3481	user: 201.0441	sys: 1.5719	maxrss: 428316
+2022-03-31 19:55:14 - Build graph for k = 75 
+2022-03-31 19:55:14 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt seq2sdbg --host_mem 1.21485610598e+11 --mem_flag 1 --output_prefix /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k75/75 --num_cpu_threads 2 -k 75 --kmer_from 65 --input_prefix /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k75/75 --addi_contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.addi.fa --local_contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.local.fa --contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.contigs.fa --bubble /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.bubble_seq.fa
+2022-03-31 19:55:14 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  369 - Number edges: 1940052
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  413 - Bases to reserve: 283346230, number contigs: 927078, number multiplicity: 2867130
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  421 - Before reading, sizeof seq_package: 78253192, multiplicity vector: 2867130
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  428 - Read 1940052 edges.
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  429 - After reading, sizeof seq_package: 78253192/1940052/147443952, multiplicity vector: 1940052/2867130
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  458 - Read 410789 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.contigs.fa.
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  459 - After reading contigs, sizeof seq_package: 78253192/2350841/260653146, multiplicity vector: 2350841/2867130
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  470 - Read 60494 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.bubble_seq.fa.
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  471 - After reading contigs, sizeof seq_package: 78253192/2411335/277845972, multiplicity vector: 2411335/2867130
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  484 - Read 5296 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.addi.fa.
+2022-03-31 19:55:14 - INFO  sorting/seq_to_sdbg.cpp       :  485 - After reading contigs, sizeof seq_package: 78253192/2416631/279146253, multiplicity vector: 2416631/2867130
+2022-03-31 19:55:15 - INFO  sorting/seq_to_sdbg.cpp       :  498 - Read 424306 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k65.local.fa.
+2022-03-31 19:55:15 - INFO  sorting/seq_to_sdbg.cpp       :  499 - After reading contigs, sizeof seq_package: 149089752/2840937/400970915, multiplicity vector: 2840937/2867130
+2022-03-31 19:55:15 - INFO  sorting/seq_to_sdbg.cpp       :  506 - Finally, sizeof seq_package: 149089752/2840937/400970915, multiplicity vector: 2840937/2867130
+2022-03-31 19:55:15 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 1.3857
+2022-03-31 19:55:15 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2022-03-31 19:55:17 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 171647260 bytes
+2022-03-31 19:55:17 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 51622003, Lv2 items: 64345
+2022-03-31 19:55:17 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 157956628, Memory for Lv1+Lv2: 208032292
+2022-03-31 19:55:17 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 2.4216
+2022-03-31 19:55:17 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2022-03-31 19:55:17 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 2788
+2022-03-31 19:55:21 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.2689
+2022-03-31 19:55:29 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 8.3984
+2022-03-31 19:55:29 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 2788 to 7463
+2022-03-31 19:55:33 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.7674
+2022-03-31 19:55:42 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 9.2735
+2022-03-31 19:55:42 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 7463 to 13517
+2022-03-31 19:55:46 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.9163
+2022-03-31 19:55:55 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 9.1922
+2022-03-31 19:55:55 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 13517 to 20887
+2022-03-31 19:55:59 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.9942
+2022-03-31 19:56:09 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 9.4953
+2022-03-31 19:56:09 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 20887 to 29702
+2022-03-31 19:56:13 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 4.0984
+2022-03-31 19:56:22 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 9.3928
+2022-03-31 19:56:22 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 29702 to 40452
+2022-03-31 19:56:26 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 4.1145
+2022-03-31 19:56:36 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 9.8764
+2022-03-31 19:56:36 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 40452 to 54690
+2022-03-31 19:56:40 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 4.1055
+2022-03-31 19:56:50 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 9.3800
+2022-03-31 19:56:50 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 54690 to 65536
+2022-03-31 19:56:53 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.8174
+2022-03-31 19:56:57 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 4.5310
+2022-03-31 19:56:57 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 99.6265
+2022-03-31 19:56:57 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2022-03-31 19:56:58 - INFO  sorting/seq_to_sdbg.cpp       :  793 - Number of $ A C G T A- C- G- T-:
+2022-03-31 19:56:58 - INFO  sorting/seq_to_sdbg.cpp       :  794 - 615563 59999230 52132775 52113062 60104091 79561 49182 48724 79215
+2022-03-31 19:56:58 - INFO  sorting/seq_to_sdbg.cpp       :  800 - Total number of edges: 225221403
+2022-03-31 19:56:58 - INFO  sorting/seq_to_sdbg.cpp       :  801 - Total number of ONEs: 224349158
+2022-03-31 19:56:58 - INFO  sorting/seq_to_sdbg.cpp       :  802 - Total number of $v edges: 615563
+2022-03-31 19:56:58 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 1.1754
+2022-03-31 19:56:58 - INFO  utils/utils.h                 :  152 - Real: 104.6557	user: 167.9718	sys: 3.4688	maxrss: 341628
+2022-03-31 19:56:58 - Assemble contigs from SdBG for k = 75
+2022-03-31 19:56:58 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt assemble -s /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k75/75 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75 -t 2 --min_standalone 300 --prune_level 2 --merge_len 20 --merge_similar 0.95 --cleaning_rounds 5 --disconnect_ratio 0.1 --low_local_ratio 0.2 --cleaning_rounds 5 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+2022-03-31 19:57:03 - INFO  main_assemble.cpp             :  129 - Loading succinct de Bruijn graph: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k75/75Done. Time elapsed: 4.533084
+2022-03-31 19:57:03 - INFO  main_assemble.cpp             :  133 - Number of Edges: 225221403; K value: 75
+2022-03-31 19:57:03 - INFO  main_assemble.cpp             :  140 - Number of CPU threads: 2
+2022-03-31 19:57:29 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 2; Accumulated tips removed: 8214; time elapsed: 1.0729
+2022-03-31 19:57:31 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 4; Accumulated tips removed: 25332; time elapsed: 1.8644
+2022-03-31 19:57:35 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 8; Accumulated tips removed: 54738; time elapsed: 3.7218
+2022-03-31 19:57:43 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 16; Accumulated tips removed: 98420; time elapsed: 7.9859
+2022-03-31 19:57:59 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 32; Accumulated tips removed: 172614; time elapsed: 15.7481
+2022-03-31 19:58:28 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 64; Accumulated tips removed: 252043; time elapsed: 29.3622
+2022-03-31 19:59:18 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 128; Accumulated tips removed: 340029; time elapsed: 50.1544
+2022-03-31 20:00:08 - INFO  assembly/sdbg_pruning.cpp     :  169 - Removing tips with length less than 150; Accumulated tips removed: 368013; time elapsed: 50.3335
+2022-03-31 20:00:08 - INFO  main_assemble.cpp             :  158 - Tips removal done! Time elapsed(sec): 185.520
+2022-03-31 20:02:23 - INFO  assembly/unitig_graph.cpp     :   83 - Graph size without loops: 368089, palindrome: 0
+2022-03-31 20:02:23 - INFO  main_assemble.cpp             :  166 - unitig graph size: 368210, time for building: 134.664
+2022-03-31 20:02:23 - INFO  assembly/contig_stat.h        :   40 - Max: 28254, Min: 76, N50: 426, number contigs: 368210, number isolated: 177885, number looped: 121, total size: 130447905,
+2022-03-31 20:02:23 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 1
+2022-03-31 20:02:33 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 18180, Time elapsed(sec): 9.394
+2022-03-31 20:02:39 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 7742, Time elapsed(sec): 6.355274
+2022-03-31 20:02:39 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 15824, time: 0.369
+2022-03-31 20:02:40 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 2260, time: 0.231
+2022-03-31 20:02:40 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 2
+2022-03-31 20:02:41 - INFO  main_assemble.cpp             :  192 - Tips removed: 6469, time: 1.348
+2022-03-31 20:02:41 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 299, Time elapsed(sec): 0.428
+2022-03-31 20:02:42 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 552, Time elapsed(sec): 0.885835
+2022-03-31 20:02:43 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 170, time: 0.310
+2022-03-31 20:02:43 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 24, time: 0.198
+2022-03-31 20:02:43 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 3
+2022-03-31 20:02:44 - INFO  main_assemble.cpp             :  192 - Tips removed: 55, time: 1.238
+2022-03-31 20:02:44 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 1, Time elapsed(sec): 0.335
+2022-03-31 20:02:45 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 13, Time elapsed(sec): 0.474897
+2022-03-31 20:02:45 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 10, time: 0.308
+2022-03-31 20:02:45 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 1, time: 0.195
+2022-03-31 20:02:45 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 4
+2022-03-31 20:02:47 - INFO  main_assemble.cpp             :  192 - Tips removed: 4, time: 1.222
+2022-03-31 20:02:47 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.329
+2022-03-31 20:02:47 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 2, Time elapsed(sec): 0.469643
+2022-03-31 20:02:48 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 1, time: 0.313
+2022-03-31 20:02:48 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.033
+2022-03-31 20:02:48 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 5
+2022-03-31 20:02:49 - INFO  main_assemble.cpp             :  192 - Tips removed: 0, time: 1.237
+2022-03-31 20:02:49 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.342
+2022-03-31 20:02:50 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.464111
+2022-03-31 20:02:50 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 0, time: 0.304
+2022-03-31 20:02:50 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.031
+2022-03-31 20:02:50 - INFO  assembly/contig_stat.h        :   40 - Max: 74372, Min: 76, N50: 501, number contigs: 265162, number isolated: 187872, number looped: 109, total size: 120070293,
+2022-03-31 20:03:36 - INFO  main_assemble.cpp             :  267 - Time to output: 45.569082
+2022-03-31 20:03:41 - INFO  main_assemble.cpp             :  286 - Number of local low depth unitigs removed: 4202, complex bubbles removed: 816, time: 5.347282
+2022-03-31 20:03:41 - INFO  assembly/contig_stat.h        :   40 - Max: 74372, Min: 76, N50: 510, number contigs: 251416, number isolated: 188041, number looped: 119, total size: 118683273,
+2022-03-31 20:04:22 - INFO  utils/utils.h                 :  152 - Real: 443.5551	user: 849.9696	sys: 5.4577	maxrss: 509856
+2022-03-31 20:04:22 - Local assembly for k = 75
+2022-03-31 20:04:22 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt local -c /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.contigs.fa -l /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib -t 2 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.local.fa --kmax 85
+2022-03-31 20:04:28 - INFO  localasm/hash_mapper.cpp      :   99 - Number of contigs: 220060, index size: 13475405
+2022-03-31 20:04:28 - INFO  localasm/local_assemble.cpp   :  315 - Hash mapper construction time elapsed: 6.464663
+2022-03-31 20:04:28 - INFO  sequence/io/sequence_lib.cpp  :  115 - Before reading, sizeof seq_package: 1587896336
+2022-03-31 20:04:33 - INFO  sequence/io/sequence_lib.cpp  :  117 - After reading, sizeof seq_package: 1587896336
+2022-03-31 20:04:33 - INFO  localasm/local_assemble.cpp   :  324 - Read lib time elapsed: 4.130075
+2022-03-31 20:04:41 - INFO  localasm/local_assemble.cpp   :  133 - Lib 0, insert size: 171.00 sd: 14.36
+2022-03-31 20:04:41 - INFO  localasm/local_assemble.cpp   :  330 - Insert size estimation time elapsed: 8.354272
+2022-03-31 20:07:45 - INFO  localasm/local_assemble.cpp   :  218 - Lib 0: total 48110692 reads, aligned 15094672, added 2057467 reads to local assembly
+2022-03-31 20:07:45 - INFO  localasm/local_assemble.cpp   :  338 - Mapping time elapsed: 184.516602
+2022-03-31 20:07:45 - INFO  localasm/local_assemble.cpp   :  232 - Minimum number of reads to do local assembly: 2
+2022-03-31 20:15:45 - INFO  localasm/local_assemble.cpp   :  346 - Local assembly time elapsed: 479.332840
+2022-03-31 20:15:45 - INFO  utils/utils.h                 :  152 - Real: 683.3090	user: 1327.9321	sys: 13.7566	maxrss: 2160040
+2022-03-31 20:15:45 - Extract iterative edges from k = 75 to 85 
+2022-03-31 20:15:45 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt iterate -c /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.contigs.fa -b /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.bubble_seq.fa -t 2 -k 75 -s 10 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k85/85 -r /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib.bin
+2022-03-31 20:15:45 - INFO  main_iterate.cpp              :  190 - Selected kmer type size for k: 20
+2022-03-31 20:15:46 - INFO  main_iterate.cpp              :  174 - Read 77290 contigs
+2022-03-31 20:15:46 - INFO  main_iterate.cpp              :  176 - Number of flank kmers: 154169
+2022-03-31 20:15:46 - INFO  main_iterate.cpp              :  174 - Read 75979 contigs
+2022-03-31 20:15:46 - INFO  main_iterate.cpp              :  176 - Number of flank kmers: 276922
+2022-03-31 20:15:46 - INFO  main_iterate.cpp              :  123 - Selected kmer type size for next k: 24
+2022-03-31 20:15:58 - INFO  main_iterate.cpp              :  138 - Processed: 4194304, aligned: 39522. Iterative edges: 221657
+2022-03-31 20:16:10 - INFO  main_iterate.cpp              :  138 - Processed: 8388608, aligned: 79827. Iterative edges: 386781
+2022-03-31 20:16:21 - INFO  main_iterate.cpp              :  138 - Processed: 12582912, aligned: 119494. Iterative edges: 513066
+2022-03-31 20:16:32 - INFO  main_iterate.cpp              :  138 - Processed: 16777216, aligned: 158810. Iterative edges: 612335
+2022-03-31 20:16:43 - INFO  main_iterate.cpp              :  138 - Processed: 20971520, aligned: 198855. Iterative edges: 698278
+2022-03-31 20:16:55 - INFO  main_iterate.cpp              :  138 - Processed: 25165824, aligned: 239588. Iterative edges: 770216
+2022-03-31 20:17:06 - INFO  main_iterate.cpp              :  138 - Processed: 29360128, aligned: 280068. Iterative edges: 830725
+2022-03-31 20:17:17 - INFO  main_iterate.cpp              :  138 - Processed: 33554432, aligned: 321027. Iterative edges: 883819
+2022-03-31 20:17:29 - INFO  main_iterate.cpp              :  138 - Processed: 37748736, aligned: 362707. Iterative edges: 930863
+2022-03-31 20:17:41 - INFO  main_iterate.cpp              :  138 - Processed: 41943040, aligned: 403598. Iterative edges: 970851
+2022-03-31 20:17:53 - INFO  main_iterate.cpp              :  138 - Processed: 46137344, aligned: 445083. Iterative edges: 1006797
+2022-03-31 20:17:58 - INFO  main_iterate.cpp              :  138 - Processed: 48110692, aligned: 464375. Iterative edges: 1021784
+2022-03-31 20:17:58 - INFO  main_iterate.cpp              :  142 - Total: 48110692, aligned: 464375. Iterative edges: 1021784
+2022-03-31 20:17:59 - INFO  utils/utils.h                 :  152 - Real: 133.1832	user: 134.1980	sys: 1.8976	maxrss: 394744
+2022-03-31 20:17:59 - Build graph for k = 85 
+2022-03-31 20:17:59 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt seq2sdbg --host_mem 1.21485610598e+11 --mem_flag 1 --output_prefix /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k85/85 --num_cpu_threads 2 -k 85 --kmer_from 75 --input_prefix /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k85/85 --addi_contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.addi.fa --local_contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.local.fa --contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.contigs.fa --bubble /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.bubble_seq.fa
+2022-03-31 20:17:59 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  369 - Number edges: 1021784
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  413 - Bases to reserve: 154470552, number contigs: 547542, number multiplicity: 1569326
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  421 - Before reading, sizeof seq_package: 42997984, multiplicity vector: 1569326
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  428 - Read 1021784 edges.
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  429 - After reading, sizeof seq_package: 42997984/1021784/87873424, multiplicity vector: 1021784/1569326
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  458 - Read 261085 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.contigs.fa.
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  459 - After reading contigs, sizeof seq_package: 81615624/1282869/207617531, multiplicity vector: 1282869/1569326
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  470 - Read 74069 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.bubble_seq.fa.
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  471 - After reading contigs, sizeof seq_package: 81615624/1356938/240554172, multiplicity vector: 1356938/1569326
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  484 - Read 4372 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.addi.fa.
+2022-03-31 20:17:59 - INFO  sorting/seq_to_sdbg.cpp       :  485 - After reading contigs, sizeof seq_package: 81615624/1361310/243382093, multiplicity vector: 1361310/1569326
+2022-03-31 20:18:00 - INFO  sorting/seq_to_sdbg.cpp       :  498 - Read 202023 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k75.local.fa.
+2022-03-31 20:18:00 - INFO  sorting/seq_to_sdbg.cpp       :  499 - After reading contigs, sizeof seq_package: 81615624/1563333/300304689, multiplicity vector: 1563333/1569326
+2022-03-31 20:18:00 - INFO  sorting/seq_to_sdbg.cpp       :  506 - Finally, sizeof seq_package: 81615624/1563333/300304689, multiplicity vector: 1563333/1569326
+2022-03-31 20:18:00 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 1.0366
+2022-03-31 20:18:00 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2022-03-31 20:18:02 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 99235656 bytes
+2022-03-31 20:18:02 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 45479480, Lv2 items: 59757
+2022-03-31 20:18:02 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 87100436, Memory for Lv1+Lv2: 183352088
+2022-03-31 20:18:02 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 2.1364
+2022-03-31 20:18:02 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2022-03-31 20:18:02 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 2675
+2022-03-31 20:18:05 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.8633
+2022-03-31 20:18:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 6.2040
+2022-03-31 20:18:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 2675 to 7258
+2022-03-31 20:18:14 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.3227
+2022-03-31 20:18:21 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 7.1195
+2022-03-31 20:18:21 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 7258 to 13261
+2022-03-31 20:18:25 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.4988
+2022-03-31 20:18:32 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 6.8782
+2022-03-31 20:18:32 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 13261 to 20629
+2022-03-31 20:18:35 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.5063
+2022-03-31 20:18:42 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 6.7735
+2022-03-31 20:18:42 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 20629 to 29475
+2022-03-31 20:18:45 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.5791
+2022-03-31 20:18:53 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 7.2860
+2022-03-31 20:18:53 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 29475 to 40298
+2022-03-31 20:18:56 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.6742
+2022-03-31 20:19:03 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 6.9809
+2022-03-31 20:19:03 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 40298 to 54650
+2022-03-31 20:19:07 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 3.6736
+2022-03-31 20:19:14 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 7.2389
+2022-03-31 20:19:14 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 54650 to 65536
+2022-03-31 20:19:17 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.4968
+2022-03-31 20:19:21 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 3.8181
+2022-03-31 20:19:21 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 78.9181
+2022-03-31 20:19:21 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2022-03-31 20:19:21 - INFO  sorting/seq_to_sdbg.cpp       :  793 - Number of $ A C G T A- C- G- T-:
+2022-03-31 20:19:21 - INFO  sorting/seq_to_sdbg.cpp       :  794 - 483437 60100154 52358762 52339886 60192142 41690 24406 34299 37616
+2022-03-31 20:19:21 - INFO  sorting/seq_to_sdbg.cpp       :  800 - Total number of edges: 225612392
+2022-03-31 20:19:21 - INFO  sorting/seq_to_sdbg.cpp       :  801 - Total number of ONEs: 224990944
+2022-03-31 20:19:21 - INFO  sorting/seq_to_sdbg.cpp       :  802 - Total number of $v edges: 483437
+2022-03-31 20:19:21 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 0.2037
+2022-03-31 20:19:21 - INFO  utils/utils.h                 :  152 - Real: 82.3370	user: 129.0870	sys: 2.4588	maxrss: 287376
+2022-03-31 20:19:21 - Assemble contigs from SdBG for k = 85
+2022-03-31 20:19:21 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt assemble -s /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k85/85 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85 -t 2 --min_standalone 300 --prune_level 2 --merge_len 20 --merge_similar 0.95 --cleaning_rounds 5 --disconnect_ratio 0.1 --low_local_ratio 0.2 --cleaning_rounds 5 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+2022-03-31 20:19:26 - INFO  main_assemble.cpp             :  129 - Loading succinct de Bruijn graph: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k85/85Done. Time elapsed: 4.765910
+2022-03-31 20:19:26 - INFO  main_assemble.cpp             :  133 - Number of Edges: 225612392; K value: 85
+2022-03-31 20:19:26 - INFO  main_assemble.cpp             :  140 - Number of CPU threads: 2
+2022-03-31 20:19:52 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 2; Accumulated tips removed: 5718; time elapsed: 1.0114
+2022-03-31 20:19:54 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 4; Accumulated tips removed: 16922; time elapsed: 1.6013
+2022-03-31 20:19:57 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 8; Accumulated tips removed: 37868; time elapsed: 3.1482
+2022-03-31 20:20:03 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 16; Accumulated tips removed: 62554; time elapsed: 6.4299
+2022-03-31 20:20:16 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 32; Accumulated tips removed: 97228; time elapsed: 12.6006
+2022-03-31 20:20:40 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 64; Accumulated tips removed: 141288; time elapsed: 23.7171
+2022-03-31 20:21:25 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 128; Accumulated tips removed: 202810; time elapsed: 45.5665
+2022-03-31 20:22:19 - INFO  assembly/sdbg_pruning.cpp     :  169 - Removing tips with length less than 170; Accumulated tips removed: 227372; time elapsed: 54.0100
+2022-03-31 20:22:19 - INFO  main_assemble.cpp             :  158 - Tips removal done! Time elapsed(sec): 173.444
+2022-03-31 20:24:38 - INFO  assembly/unitig_graph.cpp     :   83 - Graph size without loops: 246743, palindrome: 0
+2022-03-31 20:24:39 - INFO  main_assemble.cpp             :  166 - unitig graph size: 246874, time for building: 139.460
+2022-03-31 20:24:39 - INFO  assembly/contig_stat.h        :   40 - Max: 34055, Min: 86, N50: 593, number contigs: 246874, number isolated: 163766, number looped: 131, total size: 127369864,
+2022-03-31 20:24:39 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 1
+2022-03-31 20:24:43 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 6138, Time elapsed(sec): 4.402
+2022-03-31 20:24:47 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 3638, Time elapsed(sec): 4.047481
+2022-03-31 20:24:47 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 2841, time: 0.262
+2022-03-31 20:24:48 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 420, time: 0.164
+2022-03-31 20:24:48 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 2
+2022-03-31 20:24:49 - INFO  main_assemble.cpp             :  192 - Tips removed: 777, time: 1.010
+2022-03-31 20:24:49 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 69, Time elapsed(sec): 0.306
+2022-03-31 20:24:50 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 194, Time elapsed(sec): 0.566973
+2022-03-31 20:24:50 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 67, time: 0.249
+2022-03-31 20:24:50 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 12, time: 0.152
+2022-03-31 20:24:50 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 3
+2022-03-31 20:24:51 - INFO  main_assemble.cpp             :  192 - Tips removed: 24, time: 0.980
+2022-03-31 20:24:51 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 1, Time elapsed(sec): 0.263
+2022-03-31 20:24:52 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 10, Time elapsed(sec): 0.384839
+2022-03-31 20:24:52 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 5, time: 0.248
+2022-03-31 20:24:52 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 2, time: 0.150
+2022-03-31 20:24:52 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 4
+2022-03-31 20:24:53 - INFO  main_assemble.cpp             :  192 - Tips removed: 3, time: 0.968
+2022-03-31 20:24:53 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.260
+2022-03-31 20:24:54 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.372179
+2022-03-31 20:24:54 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 2, time: 0.250
+2022-03-31 20:24:54 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.018
+2022-03-31 20:24:54 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 5
+2022-03-31 20:24:55 - INFO  main_assemble.cpp             :  192 - Tips removed: 0, time: 0.959
+2022-03-31 20:24:55 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.260
+2022-03-31 20:24:55 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.372246
+2022-03-31 20:24:56 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 0, time: 0.248
+2022-03-31 20:24:56 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.018
+2022-03-31 20:24:56 - INFO  assembly/contig_stat.h        :   40 - Max: 87275, Min: 86, N50: 638, number contigs: 211963, number isolated: 166407, number looped: 122, total size: 123173539,
+2022-03-31 20:25:41 - INFO  main_assemble.cpp             :  267 - Time to output: 45.468983
+2022-03-31 20:25:45 - INFO  main_assemble.cpp             :  286 - Number of local low depth unitigs removed: 2528, complex bubbles removed: 430, time: 3.539335
+2022-03-31 20:25:45 - INFO  assembly/contig_stat.h        :   40 - Max: 87275, Min: 86, N50: 648, number contigs: 203807, number isolated: 166496, number looped: 130, total size: 122255353,
+2022-03-31 20:26:28 - INFO  utils/utils.h                 :  152 - Real: 427.4824	user: 828.2549	sys: 4.8872	maxrss: 510008
+2022-03-31 20:26:28 - Local assembly for k = 85
+2022-03-31 20:26:28 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt local -c /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.contigs.fa -l /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib -t 2 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.local.fa --kmax 95
+2022-03-31 20:26:34 - INFO  localasm/hash_mapper.cpp      :   99 - Number of contigs: 192193, index size: 14318605
+2022-03-31 20:26:34 - INFO  localasm/local_assemble.cpp   :  315 - Hash mapper construction time elapsed: 5.624997
+2022-03-31 20:26:34 - INFO  sequence/io/sequence_lib.cpp  :  115 - Before reading, sizeof seq_package: 1587896336
+2022-03-31 20:26:38 - INFO  sequence/io/sequence_lib.cpp  :  117 - After reading, sizeof seq_package: 1587896336
+2022-03-31 20:26:38 - INFO  localasm/local_assemble.cpp   :  324 - Read lib time elapsed: 4.231699
+2022-03-31 20:26:49 - INFO  localasm/local_assemble.cpp   :  133 - Lib 0, insert size: 171.00 sd: 14.24
+2022-03-31 20:26:49 - INFO  localasm/local_assemble.cpp   :  330 - Insert size estimation time elapsed: 10.790354
+2022-03-31 20:30:45 - INFO  localasm/local_assemble.cpp   :  218 - Lib 0: total 48110692 reads, aligned 15840805, added 1468752 reads to local assembly
+2022-03-31 20:30:45 - INFO  localasm/local_assemble.cpp   :  338 - Mapping time elapsed: 235.609296
+2022-03-31 20:30:45 - INFO  localasm/local_assemble.cpp   :  232 - Minimum number of reads to do local assembly: 2
+2022-03-31 20:36:13 - INFO  localasm/local_assemble.cpp   :  346 - Local assembly time elapsed: 328.458166
+2022-03-31 20:36:14 - INFO  utils/utils.h                 :  152 - Real: 585.2568	user: 1082.4014	sys: 13.0753	maxrss: 2123628
+2022-03-31 20:36:14 - Extract iterative edges from k = 85 to 95 
+2022-03-31 20:36:14 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt iterate -c /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.contigs.fa -b /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.bubble_seq.fa -t 2 -k 85 -s 10 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k95/95 -r /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib.bin
+2022-03-31 20:36:14 - INFO  main_iterate.cpp              :  190 - Selected kmer type size for k: 24
+2022-03-31 20:36:14 - INFO  main_iterate.cpp              :  174 - Read 45556 contigs
+2022-03-31 20:36:14 - INFO  main_iterate.cpp              :  176 - Number of flank kmers: 90862
+2022-03-31 20:36:14 - INFO  main_iterate.cpp              :  174 - Read 25163 contigs
+2022-03-31 20:36:14 - INFO  main_iterate.cpp              :  176 - Number of flank kmers: 130075
+2022-03-31 20:36:14 - INFO  main_iterate.cpp              :  123 - Selected kmer type size for next k: 24
+2022-03-31 20:36:23 - INFO  main_iterate.cpp              :  138 - Processed: 4194304, aligned: 13652. Iterative edges: 50333
+2022-03-31 20:36:31 - INFO  main_iterate.cpp              :  138 - Processed: 8388608, aligned: 27803. Iterative edges: 95154
+2022-03-31 20:36:39 - INFO  main_iterate.cpp              :  138 - Processed: 12582912, aligned: 41554. Iterative edges: 133759
+2022-03-31 20:36:48 - INFO  main_iterate.cpp              :  138 - Processed: 16777216, aligned: 55285. Iterative edges: 167498
+2022-03-31 20:36:56 - INFO  main_iterate.cpp              :  138 - Processed: 20971520, aligned: 69235. Iterative edges: 197705
+2022-03-31 20:37:04 - INFO  main_iterate.cpp              :  138 - Processed: 25165824, aligned: 83324. Iterative edges: 225552
+2022-03-31 20:37:12 - INFO  main_iterate.cpp              :  138 - Processed: 29360128, aligned: 97550. Iterative edges: 250489
+2022-03-31 20:37:20 - INFO  main_iterate.cpp              :  138 - Processed: 33554432, aligned: 111726. Iterative edges: 272678
+2022-03-31 20:37:28 - INFO  main_iterate.cpp              :  138 - Processed: 37748736, aligned: 126100. Iterative edges: 293581
+2022-03-31 20:37:36 - INFO  main_iterate.cpp              :  138 - Processed: 41943040, aligned: 140310. Iterative edges: 312716
+2022-03-31 20:37:44 - INFO  main_iterate.cpp              :  138 - Processed: 46137344, aligned: 154714. Iterative edges: 330559
+2022-03-31 20:37:48 - INFO  main_iterate.cpp              :  138 - Processed: 48110692, aligned: 161444. Iterative edges: 338356
+2022-03-31 20:37:48 - INFO  main_iterate.cpp              :  142 - Total: 48110692, aligned: 161444. Iterative edges: 338356
+2022-03-31 20:37:48 - INFO  utils/utils.h                 :  152 - Real: 94.1406	user: 95.9747	sys: 1.2957	maxrss: 338280
+2022-03-31 20:37:48 - Build graph for k = 95 
+2022-03-31 20:37:48 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt seq2sdbg --host_mem 1.21485610598e+11 --mem_flag 1 --output_prefix /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k95/95 --num_cpu_threads 2 -k 95 --kmer_from 85 --input_prefix /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k95/95 --addi_contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.addi.fa --local_contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.local.fa --contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.contigs.fa --bubble /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.bubble_seq.fa
+2022-03-31 20:37:48 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2022-03-31 20:37:48 - INFO  sorting/seq_to_sdbg.cpp       :  369 - Number edges: 338356
+2022-03-31 20:37:48 - INFO  sorting/seq_to_sdbg.cpp       :  413 - Bases to reserve: 75365056, number contigs: 371811, number multiplicity: 710167
+2022-03-31 20:37:48 - INFO  sorting/seq_to_sdbg.cpp       :  421 - Before reading, sizeof seq_package: 21815760, multiplicity vector: 710167
+2022-03-31 20:37:48 - INFO  sorting/seq_to_sdbg.cpp       :  428 - Read 338356 edges.
+2022-03-31 20:37:48 - INFO  sorting/seq_to_sdbg.cpp       :  429 - After reading, sizeof seq_package: 21815760/338356/32482176, multiplicity vector: 338356/710167
+2022-03-31 20:37:48 - INFO  sorting/seq_to_sdbg.cpp       :  458 - Read 210013 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.contigs.fa.
+2022-03-31 20:37:48 - INFO  sorting/seq_to_sdbg.cpp       :  459 - After reading contigs, sizeof seq_package: 78339552/548369/155480949, multiplicity vector: 548369/710167
+2022-03-31 20:37:49 - INFO  sorting/seq_to_sdbg.cpp       :  470 - Read 24382 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.bubble_seq.fa.
+2022-03-31 20:37:49 - INFO  sorting/seq_to_sdbg.cpp       :  471 - After reading contigs, sizeof seq_package: 78339552/572751/171859015, multiplicity vector: 572751/710167
+2022-03-31 20:37:49 - INFO  sorting/seq_to_sdbg.cpp       :  484 - Read 2605 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.addi.fa.
+2022-03-31 20:37:49 - INFO  sorting/seq_to_sdbg.cpp       :  485 - After reading contigs, sizeof seq_package: 78339552/575356/174101164, multiplicity vector: 575356/710167
+2022-03-31 20:37:49 - INFO  sorting/seq_to_sdbg.cpp       :  498 - Read 132077 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k85.local.fa.
+2022-03-31 20:37:49 - INFO  sorting/seq_to_sdbg.cpp       :  499 - After reading contigs, sizeof seq_package: 78339552/707433/210271492, multiplicity vector: 707433/710167
+2022-03-31 20:37:49 - INFO  sorting/seq_to_sdbg.cpp       :  506 - Finally, sizeof seq_package: 78339552/707433/210271492, multiplicity vector: 707433/710167
+2022-03-31 20:37:49 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 0.8265
+2022-03-31 20:37:49 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2022-03-31 20:37:50 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 91910926 bytes
+2022-03-31 20:37:50 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 38528059, Lv2 items: 51530
+2022-03-31 20:37:50 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 81402662, Memory for Lv1+Lv2: 155555076
+2022-03-31 20:37:50 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 1.7093
+2022-03-31 20:37:50 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2022-03-31 20:37:50 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 2653
+2022-03-31 20:37:53 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.2916
+2022-03-31 20:37:58 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 5.4408
+2022-03-31 20:37:58 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 2653 to 7236
+2022-03-31 20:38:01 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.6809
+2022-03-31 20:38:07 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 6.4797
+2022-03-31 20:38:07 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 7236 to 13247
+2022-03-31 20:38:10 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.7809
+2022-03-31 20:38:16 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 6.0100
+2022-03-31 20:38:16 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 13247 to 20626
+2022-03-31 20:38:19 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.9041
+2022-03-31 20:38:25 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 5.9532
+2022-03-31 20:38:25 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 20626 to 29490
+2022-03-31 20:38:28 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.8377
+2022-03-31 20:38:34 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 5.9947
+2022-03-31 20:38:34 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 29490 to 40338
+2022-03-31 20:38:37 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.9625
+2022-03-31 20:38:43 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 6.1559
+2022-03-31 20:38:43 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 40338 to 54743
+2022-03-31 20:38:46 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 2.8793
+2022-03-31 20:38:52 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 6.1584
+2022-03-31 20:38:52 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 54743 to 65536
+2022-03-31 20:38:54 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 1.9991
+2022-03-31 20:38:57 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 2.9926
+2022-03-31 20:38:57 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 66.5259
+2022-03-31 20:38:57 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2022-03-31 20:38:58 - INFO  sorting/seq_to_sdbg.cpp       :  793 - Number of $ A C G T A- C- G- T-:
+2022-03-31 20:38:58 - INFO  sorting/seq_to_sdbg.cpp       :  794 - 418662 59441424 51893315 51879827 59528814 19442 17335 12299 21460
+2022-03-31 20:38:58 - INFO  sorting/seq_to_sdbg.cpp       :  800 - Total number of edges: 223232578
+2022-03-31 20:38:58 - INFO  sorting/seq_to_sdbg.cpp       :  801 - Total number of ONEs: 222743380
+2022-03-31 20:38:58 - INFO  sorting/seq_to_sdbg.cpp       :  802 - Total number of $v edges: 418662
+2022-03-31 20:38:58 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 1.3995
+2022-03-31 20:38:58 - INFO  utils/utils.h                 :  152 - Real: 70.4910	user: 112.3646	sys: 2.0178	maxrss: 234876
+2022-03-31 20:38:58 - Assemble contigs from SdBG for k = 95
+2022-03-31 20:38:58 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt assemble -s /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k95/95 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95 -t 2 --min_standalone 300 --prune_level 2 --merge_len 20 --merge_similar 0.95 --cleaning_rounds 5 --disconnect_ratio 0.1 --low_local_ratio 0.2 --cleaning_rounds 5 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+2022-03-31 20:39:03 - INFO  main_assemble.cpp             :  129 - Loading succinct de Bruijn graph: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k95/95Done. Time elapsed: 4.652320
+2022-03-31 20:39:03 - INFO  main_assemble.cpp             :  133 - Number of Edges: 223232578; K value: 95
+2022-03-31 20:39:03 - INFO  main_assemble.cpp             :  140 - Number of CPU threads: 2
+2022-03-31 20:39:29 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 2; Accumulated tips removed: 4368; time elapsed: 1.0152
+2022-03-31 20:39:31 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 4; Accumulated tips removed: 13306; time elapsed: 1.4649
+2022-03-31 20:39:34 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 8; Accumulated tips removed: 32300; time elapsed: 3.0433
+2022-03-31 20:39:40 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 16; Accumulated tips removed: 47134; time elapsed: 5.7587
+2022-03-31 20:39:50 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 32; Accumulated tips removed: 69664; time elapsed: 10.6210
+2022-03-31 20:40:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 64; Accumulated tips removed: 98784; time elapsed: 21.4339
+2022-03-31 20:40:52 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 128; Accumulated tips removed: 129526; time elapsed: 40.2085
+2022-03-31 20:41:47 - INFO  assembly/sdbg_pruning.cpp     :  169 - Removing tips with length less than 190; Accumulated tips removed: 150432; time elapsed: 55.3373
+2022-03-31 20:41:47 - INFO  main_assemble.cpp             :  158 - Tips removal done! Time elapsed(sec): 164.096
+2022-03-31 20:44:05 - INFO  assembly/unitig_graph.cpp     :   83 - Graph size without loops: 187138, palindrome: 0
+2022-03-31 20:44:05 - INFO  main_assemble.cpp             :  166 - unitig graph size: 187271, time for building: 138.007
+2022-03-31 20:44:05 - INFO  assembly/contig_stat.h        :   40 - Max: 131256, Min: 96, N50: 729, number contigs: 187271, number isolated: 155377, number looped: 133, total size: 124836937,
+2022-03-31 20:44:05 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 1
+2022-03-31 20:44:06 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 758, Time elapsed(sec): 0.693
+2022-03-31 20:44:08 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 1154, Time elapsed(sec): 1.778520
+2022-03-31 20:44:08 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 984, time: 0.204
+2022-03-31 20:44:08 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 115, time: 0.117
+2022-03-31 20:44:08 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 2
+2022-03-31 20:44:09 - INFO  main_assemble.cpp             :  192 - Tips removed: 291, time: 0.782
+2022-03-31 20:44:09 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 14, Time elapsed(sec): 0.214
+2022-03-31 20:44:10 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 68, Time elapsed(sec): 0.427163
+2022-03-31 20:44:10 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 29, time: 0.200
+2022-03-31 20:44:10 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 6, time: 0.114
+2022-03-31 20:44:10 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 3
+2022-03-31 20:44:11 - INFO  main_assemble.cpp             :  192 - Tips removed: 9, time: 0.758
+2022-03-31 20:44:11 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.205
+2022-03-31 20:44:11 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 2, Time elapsed(sec): 0.300672
+2022-03-31 20:44:11 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 4, time: 0.200
+2022-03-31 20:44:11 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 1, time: 0.113
+2022-03-31 20:44:11 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 4
+2022-03-31 20:44:12 - INFO  main_assemble.cpp             :  192 - Tips removed: 2, time: 0.757
+2022-03-31 20:44:12 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.205
+2022-03-31 20:44:13 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.293037
+2022-03-31 20:44:13 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 1, time: 0.200
+2022-03-31 20:44:13 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.007
+2022-03-31 20:44:13 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 5
+2022-03-31 20:44:14 - INFO  main_assemble.cpp             :  192 - Tips removed: 0, time: 0.756
+2022-03-31 20:44:14 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.205
+2022-03-31 20:44:14 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.293658
+2022-03-31 20:44:14 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 0, time: 0.199
+2022-03-31 20:44:14 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.007
+2022-03-31 20:44:14 - INFO  assembly/contig_stat.h        :   40 - Max: 131256, Min: 96, N50: 746, number contigs: 179732, number isolated: 155834, number looped: 130, total size: 123727730,
+2022-03-31 20:45:00 - INFO  main_assemble.cpp             :  267 - Time to output: 45.379863
+2022-03-31 20:45:02 - INFO  main_assemble.cpp             :  286 - Number of local low depth unitigs removed: 790, complex bubbles removed: 116, time: 2.172496
+2022-03-31 20:45:02 - INFO  assembly/contig_stat.h        :   40 - Max: 131256, Min: 96, N50: 750, number contigs: 177366, number isolated: 155894, number looped: 130, total size: 123427765,
+2022-03-31 20:45:45 - INFO  utils/utils.h                 :  152 - Real: 406.8149	user: 779.9351	sys: 5.8595	maxrss: 503364
+2022-03-31 20:45:45 - Local assembly for k = 95
+2022-03-31 20:45:45 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt local -c /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.contigs.fa -l /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib -t 2 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.local.fa --kmax 105
+2022-03-31 20:45:54 - INFO  localasm/hash_mapper.cpp      :   99 - Number of contigs: 173683, index size: 14652317
+2022-03-31 20:45:54 - INFO  localasm/local_assemble.cpp   :  315 - Hash mapper construction time elapsed: 8.250821
+2022-03-31 20:45:54 - INFO  sequence/io/sequence_lib.cpp  :  115 - Before reading, sizeof seq_package: 1587896336
+2022-03-31 20:45:58 - INFO  sequence/io/sequence_lib.cpp  :  117 - After reading, sizeof seq_package: 1587896336
+2022-03-31 20:45:58 - INFO  localasm/local_assemble.cpp   :  324 - Read lib time elapsed: 4.185617
+2022-03-31 20:46:05 - INFO  localasm/local_assemble.cpp   :  133 - Lib 0, insert size: 171.00 sd: 14.21
+2022-03-31 20:46:05 - INFO  localasm/local_assemble.cpp   :  330 - Insert size estimation time elapsed: 7.239641
+2022-03-31 20:48:57 - INFO  localasm/local_assemble.cpp   :  218 - Lib 0: total 48110692 reads, aligned 16155147, added 1038564 reads to local assembly
+2022-03-31 20:48:57 - INFO  localasm/local_assemble.cpp   :  338 - Mapping time elapsed: 171.915589
+2022-03-31 20:48:57 - INFO  localasm/local_assemble.cpp   :  232 - Minimum number of reads to do local assembly: 2
+2022-03-31 20:52:39 - INFO  localasm/local_assemble.cpp   :  346 - Local assembly time elapsed: 222.531950
+2022-03-31 20:52:40 - INFO  utils/utils.h                 :  152 - Real: 414.6364	user: 804.9422	sys: 12.4023	maxrss: 2377376
+2022-03-31 20:52:40 - Extract iterative edges from k = 95 to 105 
+2022-03-31 20:52:40 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt iterate -c /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.contigs.fa -b /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.bubble_seq.fa -t 2 -k 95 -s 10 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k105/105 -r /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/reads.lib.bin
+2022-03-31 20:52:40 - INFO  main_iterate.cpp              :  190 - Selected kmer type size for k: 24
+2022-03-31 20:52:40 - INFO  main_iterate.cpp              :  174 - Read 23898 contigs
+2022-03-31 20:52:40 - INFO  main_iterate.cpp              :  176 - Number of flank kmers: 47744
+2022-03-31 20:52:40 - INFO  main_iterate.cpp              :  174 - Read 5316 contigs
+2022-03-31 20:52:40 - INFO  main_iterate.cpp              :  176 - Number of flank kmers: 55792
+2022-03-31 20:52:40 - INFO  main_iterate.cpp              :  123 - Selected kmer type size for next k: 28
+2022-03-31 20:52:41 - INFO  main_iterate.cpp              :  138 - Processed: 4194304, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:41 - INFO  main_iterate.cpp              :  138 - Processed: 8388608, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:42 - INFO  main_iterate.cpp              :  138 - Processed: 12582912, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:42 - INFO  main_iterate.cpp              :  138 - Processed: 16777216, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:42 - INFO  main_iterate.cpp              :  138 - Processed: 20971520, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:43 - INFO  main_iterate.cpp              :  138 - Processed: 25165824, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:43 - INFO  main_iterate.cpp              :  138 - Processed: 29360128, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:43 - INFO  main_iterate.cpp              :  138 - Processed: 33554432, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:43 - INFO  main_iterate.cpp              :  138 - Processed: 37748736, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:44 - INFO  main_iterate.cpp              :  138 - Processed: 41943040, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:44 - INFO  main_iterate.cpp              :  138 - Processed: 46137344, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:44 - INFO  main_iterate.cpp              :  138 - Processed: 48110692, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:44 - INFO  main_iterate.cpp              :  142 - Total: 48110692, aligned: 0. Iterative edges: 0
+2022-03-31 20:52:44 - INFO  utils/utils.h                 :  152 - Real: 4.1241	user: 3.6368	sys: 0.6036	maxrss: 327788
+2022-03-31 20:52:44 - Build graph for k = 105 
+2022-03-31 20:52:44 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt seq2sdbg --host_mem 1.21485610598e+11 --mem_flag 1 --output_prefix /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k105/105 --num_cpu_threads 2 -k 105 --kmer_from 95 --input_prefix /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k105/105 --addi_contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.addi.fa --local_contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.local.fa --contig /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.contigs.fa --bubble /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.bubble_seq.fa
+2022-03-31 20:52:44 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2022-03-31 20:52:44 - INFO  sorting/seq_to_sdbg.cpp       :  369 - Number edges: 0
+2022-03-31 20:52:44 - INFO  sorting/seq_to_sdbg.cpp       :  413 - Bases to reserve: 30038922, number contigs: 278982, number multiplicity: 278982
+2022-03-31 20:52:44 - INFO  sorting/seq_to_sdbg.cpp       :  421 - Before reading, sizeof seq_package: 9741596, multiplicity vector: 278982
+2022-03-31 20:52:44 - INFO  sorting/seq_to_sdbg.cpp       :  428 - Read 0 edges.
+2022-03-31 20:52:44 - INFO  sorting/seq_to_sdbg.cpp       :  429 - After reading, sizeof seq_package: 9741596/0/0, multiplicity vector: 0/278982
+2022-03-31 20:52:45 - INFO  sorting/seq_to_sdbg.cpp       :  458 - Read 179018 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.contigs.fa.
+2022-03-31 20:52:45 - INFO  sorting/seq_to_sdbg.cpp       :  459 - After reading contigs, sizeof seq_package: 62309720/179018/123657391, multiplicity vector: 179018/278982
+2022-03-31 20:52:45 - INFO  sorting/seq_to_sdbg.cpp       :  470 - Read 5167 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.bubble_seq.fa.
+2022-03-31 20:52:45 - INFO  sorting/seq_to_sdbg.cpp       :  471 - After reading contigs, sizeof seq_package: 62309720/184185/127771569, multiplicity vector: 184185/278982
+2022-03-31 20:52:45 - INFO  sorting/seq_to_sdbg.cpp       :  484 - Read 859 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.addi.fa.
+2022-03-31 20:52:45 - INFO  sorting/seq_to_sdbg.cpp       :  485 - After reading contigs, sizeof seq_package: 62309720/185044/129099021, multiplicity vector: 185044/278982
+2022-03-31 20:52:45 - INFO  sorting/seq_to_sdbg.cpp       :  498 - Read 93075 contigs from /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k95.local.fa.
+2022-03-31 20:52:45 - INFO  sorting/seq_to_sdbg.cpp       :  499 - After reading contigs, sizeof seq_package: 62309720/278119/153932547, multiplicity vector: 278119/278982
+2022-03-31 20:52:45 - INFO  sorting/seq_to_sdbg.cpp       :  506 - Finally, sizeof seq_package: 62309720/278119/153932547, multiplicity vector: 278119/278982
+2022-03-31 20:52:45 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 0.6797
+2022-03-31 20:52:45 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2022-03-31 20:52:46 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 73338512 bytes
+2022-03-31 20:52:46 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 33409677, Lv2 items: 43972
+2022-03-31 20:52:46 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 64070308, Memory for Lv1+Lv2: 135045812
+2022-03-31 20:52:46 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 1.0703
+2022-03-31 20:52:46 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2022-03-31 20:52:46 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 2733
+2022-03-31 20:52:47 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 1.4852
+2022-03-31 20:52:52 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 4.5167
+2022-03-31 20:52:52 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 2733 to 7400
+2022-03-31 20:52:54 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 1.6974
+2022-03-31 20:52:58 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 4.7575
+2022-03-31 20:52:58 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 7400 to 13460
+2022-03-31 20:53:00 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 1.6927
+2022-03-31 20:53:05 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 4.9466
+2022-03-31 20:53:05 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 13460 to 20847
+2022-03-31 20:53:07 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 1.8171
+2022-03-31 20:53:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 4.8779
+2022-03-31 20:53:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 20847 to 29698
+2022-03-31 20:53:13 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 1.7983
+2022-03-31 20:53:19 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 5.8609
+2022-03-31 20:53:19 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 29698 to 40501
+2022-03-31 20:53:21 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 1.8286
+2022-03-31 20:53:26 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 4.9080
+2022-03-31 20:53:26 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 40501 to 54859
+2022-03-31 20:53:28 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 1.7899
+2022-03-31 20:53:33 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 5.0060
+2022-03-31 20:53:33 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 54859 to 65536
+2022-03-31 20:53:34 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 1.2265
+2022-03-31 20:53:36 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 2.3513
+2022-03-31 20:53:36 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 50.5675
+2022-03-31 20:53:36 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2022-03-31 20:53:38 - INFO  sorting/seq_to_sdbg.cpp       :  793 - Number of $ A C G T A- C- G- T-:
+2022-03-31 20:53:38 - INFO  sorting/seq_to_sdbg.cpp       :  794 - 353799 58638461 51265706 51245100 58722185 12199 7194 7084 12192
+2022-03-31 20:53:38 - INFO  sorting/seq_to_sdbg.cpp       :  800 - Total number of edges: 220263920
+2022-03-31 20:53:38 - INFO  sorting/seq_to_sdbg.cpp       :  801 - Total number of ONEs: 219871452
+2022-03-31 20:53:38 - INFO  sorting/seq_to_sdbg.cpp       :  802 - Total number of $v edges: 353799
+2022-03-31 20:53:38 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 1.8739
+2022-03-31 20:53:38 - INFO  utils/utils.h                 :  152 - Real: 54.2177	user: 92.2709	sys: 2.5560	maxrss: 199320
+2022-03-31 20:53:38 - Assemble contigs from SdBG for k = 105
+2022-03-31 20:53:38 - command /sw/bioinfo/megahit/1.2.9/rackham/megahit_core_popcnt assemble -s /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k105/105 -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/intermediate_contigs/k105 -t 2 --min_standalone 300 --prune_level 2 --merge_len 20 --merge_similar 0.95 --cleaning_rounds 5 --disconnect_ratio 0.1 --low_local_ratio 0.2 --cleaning_rounds 5 --min_depth 2 --bubble_level 2 --max_tip_len 196.0 --is_final_round
+2022-03-31 20:53:43 - INFO  main_assemble.cpp             :  129 - Loading succinct de Bruijn graph: /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/tmp/k105/105Done. Time elapsed: 4.573021
+2022-03-31 20:53:43 - INFO  main_assemble.cpp             :  133 - Number of Edges: 220263920; K value: 105
+2022-03-31 20:53:43 - INFO  main_assemble.cpp             :  140 - Number of CPU threads: 2
+2022-03-31 20:54:09 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 2; Accumulated tips removed: 1086; time elapsed: 0.9083
+2022-03-31 20:54:10 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 4; Accumulated tips removed: 3678; time elapsed: 1.3743
+2022-03-31 20:54:13 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 8; Accumulated tips removed: 8290; time elapsed: 2.5480
+2022-03-31 20:54:18 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 16; Accumulated tips removed: 16638; time elapsed: 4.9980
+2022-03-31 20:54:27 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 32; Accumulated tips removed: 31606; time elapsed: 9.6498
+2022-03-31 20:54:45 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 64; Accumulated tips removed: 50810; time elapsed: 17.9330
+2022-03-31 20:55:20 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 128; Accumulated tips removed: 62392; time elapsed: 35.1734
+2022-03-31 20:56:12 - INFO  assembly/sdbg_pruning.cpp     :  169 - Removing tips with length less than 196; Accumulated tips removed: 77532; time elapsed: 51.4066
+2022-03-31 20:56:12 - INFO  main_assemble.cpp             :  158 - Tips removal done! Time elapsed(sec): 148.707
+2022-03-31 20:58:25 - INFO  assembly/unitig_graph.cpp     :   83 - Graph size without loops: 168021, palindrome: 0
+2022-03-31 20:58:25 - INFO  main_assemble.cpp             :  166 - unitig graph size: 168147, time for building: 133.712
+2022-03-31 20:58:26 - INFO  assembly/contig_stat.h        :   40 - Max: 131335, Min: 106, N50: 810, number contigs: 168147, number isolated: 148401, number looped: 126, total size: 124877121,
+2022-03-31 20:58:26 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 1
+2022-03-31 20:58:26 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 218, Time elapsed(sec): 0.201
+2022-03-31 20:58:26 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 717, Time elapsed(sec): 0.591891
+2022-03-31 20:58:26 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 349, time: 0.177
+2022-03-31 20:58:27 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 43, time: 0.099
+2022-03-31 20:58:27 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 2
+2022-03-31 20:58:27 - INFO  main_assemble.cpp             :  192 - Tips removed: 45, time: 0.683
+2022-03-31 20:58:27 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 2, Time elapsed(sec): 0.180
+2022-03-31 20:58:28 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 23, Time elapsed(sec): 0.253372
+2022-03-31 20:58:28 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 17, time: 0.175
+2022-03-31 20:58:28 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 3, time: 0.097
+2022-03-31 20:58:28 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 3
+2022-03-31 20:58:29 - INFO  main_assemble.cpp             :  192 - Tips removed: 4, time: 0.663
+2022-03-31 20:58:29 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.178
+2022-03-31 20:58:29 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 1, Time elapsed(sec): 0.238153
+2022-03-31 20:58:29 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 1, time: 0.174
+2022-03-31 20:58:29 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.004
+2022-03-31 20:58:29 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 4
+2022-03-31 20:58:30 - INFO  main_assemble.cpp             :  192 - Tips removed: 0, time: 0.664
+2022-03-31 20:58:30 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.178
+2022-03-31 20:58:30 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.238331
+2022-03-31 20:58:30 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 0, time: 0.174
+2022-03-31 20:58:30 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.004
+2022-03-31 20:58:31 - INFO  assembly/contig_stat.h        :   40 - Max: 131335, Min: 106, N50: 820, number contigs: 164728, number isolated: 148634, number looped: 130, total size: 124250708,
+2022-03-31 20:58:32 - INFO  main_assemble.cpp             :  286 - Number of local low depth unitigs removed: 363, complex bubbles removed: 32, time: 1.439719
+2022-03-31 20:58:32 - INFO  assembly/contig_stat.h        :   40 - Max: 131335, Min: 106, N50: 822, number contigs: 163714, number isolated: 148701, number looped: 132, total size: 124111228,
+2022-03-31 20:59:16 - INFO  utils/utils.h                 :  152 - Real: 337.5217	user: 651.1101	sys: 5.2204	maxrss: 496820
+2022-03-31 20:59:16 - Merging to output final contigs 
+2022-03-31 20:59:18 - 161952 contigs, total 123859441 bp, min 200 bp, max 131335 bp, avg 764 bp, N50 824 bp
+2022-03-31 20:59:18 - ALL DONE. Time elapsed: 8004.161216 seconds 
