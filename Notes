@@ -14,8 +14,7 @@
                             RNA_trim_39.right_unpaired.trimmed.fastq.gz
                             RNA_trim_37.right_paired.trimmed.fastq.gz   
                             RNA_trim_39.left_unpaired.trimmed.fastq.gz
-
-
+			    
 30/3
 - correct the project plan following the comments
 - run FastQC
@@ -26,7 +25,6 @@
 			SRR4342129 for the contigs for D1
 			SRR4342133 for the contigs for D3
                            
-
     /home/andreak/Genome_Analysis/Genome-Analysis/code --> with the scripts used for each analysis
           /Qc_DNA_RNA/ --> for the quality check of DNA & RNA #DOES NOT WORK 
                             ERROR: Specified output directory 'OUTDIR/DNA_fastqc' does not exist
