@@ -13,3 +13,6 @@ module load bioinfo-tools
 module load quast
 
 # My commands
+
+metaquast.py -o $/home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D1-SRR4342129_metaquast_out $/home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa
+metaquast.py -o $/home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out $/home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs/final.contigs.fa
