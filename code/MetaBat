@@ -1,0 +1,17 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 02:00:00
+#SBATCH -J metabat
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user stavroula.andreakou.9085@student.uu.se
+
+# Load modules
+module load bioinfo-tools
+module load MetaBat
+
+# My commands
+metabat -i /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat/D1-SRR4342129__metabat_output -t 2 -v
+metabat -i /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs/final.contigs.fa -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat/D3-SRR4342133__metabat_output -t 2 -v
