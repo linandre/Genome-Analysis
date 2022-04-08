@@ -1,0 +1,172 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [Magnetospira_sp._QH_2_NZ_FO538765.1]
+	Loaded [Magnetospira_sp._QH_2_NZ_FO538766.1]
+	Total Regions: 2
+	Total Region Length: 4052370
+Analyzing contigs...
+CONTIG: k105_436 (10809bp)
+Best alignment score: 76.0 (LEN: 76, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 76.0, number of alignments: 1, unaligned bases: 10733
+		This contig is partially unaligned. (Aligned 76 out of 10809 non-N bases (0.70%))
+		Alignment: 2684884 2684959 | 10006 9931 | 76 76 | 100.0 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_436
+		Unaligned bases: 1 to 9930 (9930)
+		Unaligned bases: 10007 to 10809 (803)
+
+CONTIG: k105_92047 (700bp)
+Best alignment score: 104.0 (LEN: 106, IDY: 98.11), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2423451 2423545 | 580 486 | 95 95 | 95.79 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_92047
+		Skipping redundant alignment 2423343 2423448 | 699 594 | 106 106 | 98.11 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_92047
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 195.0, number of alignments: 2, unaligned bases: 499
+		This contig is misassembled.
+			Warning! This contig is more unaligned than misassembled. Contig length is 700 (number of Ns: 0) and total length of all aligns is 201
+		Alignment: 3667316 3667410 | 580 486 | 95 95 | 95.79 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_92047
+		Alignment: 3667208 3667313 | 699 594 | 106 106 | 98.11 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_92047
+		Unaligned bases: 499
+
+CONTIG: k105_6392 (1341bp)
+Best alignment score: 77.0 (LEN: 80, IDY: 96.25), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3670068 3670147 | 282 361 | 80 80 | 96.25 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_6392
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 77.0, number of alignments: 1, unaligned bases: 1261
+		This contig is partially unaligned. (Aligned 80 out of 1341 non-N bases (5.97%))
+		Alignment: 2426203 2426282 | 282 361 | 80 80 | 96.25 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_6392
+		Unaligned bases: 1 to 281 (281)
+		Unaligned bases: 362 to 1341 (980)
+
+CONTIG: k105_10811 (636bp)
+Best alignment score: 69.0 (LEN: 71, IDY: 97.18), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3670780 3670848 | 184 116 | 69 69 | 95.65 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_10811
+		Skipping redundant alignment 3670495 3670565 | 479 409 | 71 71 | 97.18 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_10811
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 135.0, number of alignments: 2, unaligned bases: 496
+		This contig is misassembled.
+			Warning! This contig is more unaligned than misassembled. Contig length is 636 (number of Ns: 0) and total length of all aligns is 140
+		Alignment: 2426916 2426984 | 184 116 | 69 69 | 95.65 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_10811
+		Alignment: 2426631 2426701 | 479 409 | 71 71 | 97.18 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_10811
+		Unaligned bases: 496
+
+CONTIG: k105_26000 (746bp)
+Best alignment score: 89.0 (LEN: 91, IDY: 97.80), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 89.0, number of alignments: 1, unaligned bases: 655
+		Alignment: 3375816 3375906 | 398 488 | 91 91 | 97.8 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_26000
+
+CONTIG: k105_129535 (14321bp)
+Best alignment score: 77.0 (LEN: 78, IDY: 98.72), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 77.0, number of alignments: 1, unaligned bases: 14243
+		This contig is partially unaligned. (Aligned 78 out of 14321 non-N bases (0.54%))
+		Alignment: 432028 432105 | 4637 4714 | 78 78 | 98.72 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_129535
+		Unaligned bases: 1 to 4636 (4636)
+		Unaligned bases: 4715 to 14321 (9607)
+
+CONTIG: k105_136612 (536bp)
+Best alignment score: 214.0 (LEN: 220, IDY: 97.27), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3670349 3670568 | 294 513 | 220 220 | 97.27 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_136612
+			The best set is below. Score: 359.0, number of alignments: 2, unaligned bases: 165
+		This contig is misassembled.
+			Real Alignment 1: 2426330 2426480 | 139 289 | 151 151 | 96.03 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_136612
+			  Stretch of 4 mismatches between these two alignments (number of Ns: 0)
+			Real Alignment 2: 2426485 2426704 | 294 513 | 220 220 | 97.27 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_136612
+
+CONTIG: k105_49235 (1678bp)
+Best alignment score: 87.0 (LEN: 88, IDY: 98.86), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 87.0, number of alignments: 1, unaligned bases: 1590
+		This contig is partially unaligned. (Aligned 88 out of 1678 non-N bases (5.24%))
+		Alignment: 2426330 2426417 | 1533 1620 | 88 88 | 98.86 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_49235
+		Unaligned bases: 1 to 1532 (1532)
+		Unaligned bases: 1621 to 1678 (58)
+
+CONTIG: k105_141796 (1051bp)
+Best alignment score: 84.0 (LEN: 88, IDY: 95.45), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3670775 3670862 | 894 807 | 88 88 | 95.45 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_141796
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 84.0, number of alignments: 1, unaligned bases: 963
+		This contig is partially unaligned. (Aligned 88 out of 1051 non-N bases (8.37%))
+		Alignment: 2426911 2426998 | 894 807 | 88 88 | 95.45 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_141796
+		Unaligned bases: 1 to 806 (806)
+		Unaligned bases: 895 to 1051 (157)
+
+CONTIG: k105_50440 (2135bp)
+		This contig is unaligned. (2135 bp)
+		Unaligned bases: 2135 (number of Ns: 0)
+
+CONTIG: k105_160840 (4157bp)
+Best alignment score: 131.0 (LEN: 136, IDY: 96.32), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2422698 2422833 | 4013 4148 | 136 136 | 96.32 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_160840
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 131.0, number of alignments: 1, unaligned bases: 4021
+		This contig is partially unaligned. (Aligned 136 out of 4157 non-N bases (3.27%))
+		Alignment: 3666563 3666698 | 4013 4148 | 136 136 | 96.32 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_160840
+		Unaligned bases: 1 to 4012 (4012)
+		Unaligned bases: 4149 to 4157 (9)
+
+CONTIG: k105_67850 (1494bp)
+Best alignment score: 69.0 (LEN: 71, IDY: 97.18), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2426631 2426701 | 89 19 | 71 71 | 97.18 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_67850
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 69.0, number of alignments: 1, unaligned bases: 1423
+		This contig is partially unaligned. (Aligned 71 out of 1494 non-N bases (4.75%))
+		Alignment: 3670495 3670565 | 89 19 | 71 71 | 97.18 | Magnetospira_sp._QH_2_NZ_FO538765.1 k105_67850
+		Unaligned bases: 1 to 18 (18)
+		Unaligned bases: 90 to 1494 (1405)
+
+Analyzing coverage...
+Writing SNPs into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Magnetospira_sp._QH_2/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Magnetospira_sp._QH_2/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 1 + 7 part
+Half Unaligned Contigs with Misassemblies: 2
+Unaligned Contig Bases: 36369
+
+Ambiguously Mapped Contigs: 6
+Total Bases in Ambiguously Mapped Contigs: 9379
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 1192
+
+	SNPs: 45
+	Insertions: 0
+	Deletions: 0
+

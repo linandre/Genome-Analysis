@@ -1,0 +1,47 @@
+/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py --colors #E31A1C --ls solid --no-check-meta --contig-thresholds 1000,5000,10000,25000,50000 -t 4 /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/quast_corrected_input/final-contigs_not_aligned_anywhere.fasta -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned --labels final.contigs
+
+Started: 2022-04-05 17:50:44
+
+Logging to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/quast.log
+
+CWD: /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code
+Main parameters: 
+  MODE: meta, threads: 4, minimum contig length: 500, minimum alignment length: 65, ambiguity: one, \
+  threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/quast_corrected_input/final-contigs_not_aligned_anywhere.fasta ==> final.contigs
+
+2022-04-05 17:50:49
+Running Basic statistics processor...
+  Contig files: 
+    final.contigs
+  Calculating N50 and L50...
+    final.contigs, N50 = 1652, L50 = 14511, Total length = 117825195, GC % = 47.88, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/basic_stats/GC_content_plot.pdf
+  Drawing final.contigs GC content plot...
+    saved to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/basic_stats/final.contigs_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-04-05 17:50:59
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2022-04-05 17:51:03
+RESULTS:
+  Text versions of total report are saved to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/report.html
+  PDF version (tables and plots) is saved to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/report.pdf
+  Icarus (contig browser) is saved to /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/not_aligned/icarus.html

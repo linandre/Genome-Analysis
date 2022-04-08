@@ -1,0 +1,94 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [Shewanella_amazonensis_SB2B_NC_008700.1]
+	Total Regions: 1
+	Total Region Length: 4306142
+Analyzing contigs...
+CONTIG: k105_34729 (2187bp)
+Best alignment score: 128.0 (LEN: 132, IDY: 96.97), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 128.0, number of alignments: 1, unaligned bases: 2055
+		This contig is partially unaligned. (Aligned 132 out of 2187 non-N bases (6.04%))
+		Alignment: 56459 56590 | 628 759 | 132 132 | 96.97 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_34729
+		Unaligned bases: 1 to 627 (627)
+		Unaligned bases: 760 to 2187 (1428)
+
+CONTIG: k105_42376 (901bp)
+Best alignment score: 83.0 (LEN: 86, IDY: 96.51), Total number of alignments: 8
+			Looking for the best set of alignments (out of 8 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 277035 277120 | 641 556 | 86 86 | 96.51 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_42376
+		Skipping redundant alignment 57309 57394 | 641 556 | 86 86 | 96.51 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_42376
+		Skipping redundant alignment 283978 284063 | 641 556 | 86 86 | 96.51 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_42376
+		Skipping redundant alignment 225506 225591 | 641 556 | 86 86 | 96.51 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_42376
+		Skipping redundant alignment 1868699 1868784 | 641 556 | 86 86 | 96.51 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_42376
+		Skipping redundant alignment 3110972 3111057 | 556 641 | 86 86 | 96.51 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_42376
+		Skipping redundant alignment 4280892 4280977 | 556 641 | 86 86 | 96.51 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_42376
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 83.0, number of alignments: 1, unaligned bases: 815
+		This contig is partially unaligned. (Aligned 86 out of 901 non-N bases (9.54%))
+		Alignment: 437228 437313 | 641 556 | 86 86 | 96.51 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_42376
+		Unaligned bases: 1 to 555 (555)
+		Unaligned bases: 642 to 901 (260)
+
+CONTIG: k105_63662 (1539bp)
+Best alignment score: 70.0 (LEN: 71, IDY: 98.59), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 70.0, number of alignments: 1, unaligned bases: 1468
+		This contig is partially unaligned. (Aligned 71 out of 1539 non-N bases (4.61%))
+		Alignment: 1149696 1149766 | 928 858 | 71 71 | 98.59 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_63662
+		Unaligned bases: 1 to 857 (857)
+		Unaligned bases: 929 to 1539 (611)
+
+CONTIG: k105_77970 (593bp)
+Best alignment score: 71.0 (LEN: 73, IDY: 97.26), Total number of alignments: 8
+			Looking for the best set of alignments (out of 8 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 56900 56972 | 415 487 | 73 73 | 97.26 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_77970
+		Skipping redundant alignment 283569 283641 | 415 487 | 73 73 | 97.26 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_77970
+		Skipping redundant alignment 3111394 3111466 | 487 415 | 73 73 | 97.26 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_77970
+		Skipping redundant alignment 276626 276698 | 415 487 | 73 73 | 97.26 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_77970
+		Skipping redundant alignment 436819 436891 | 415 487 | 73 73 | 97.26 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_77970
+		Skipping redundant alignment 1868290 1868362 | 415 487 | 73 73 | 97.26 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_77970
+		Skipping redundant alignment 225097 225169 | 415 487 | 73 73 | 97.26 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_77970
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 71.0, number of alignments: 1, unaligned bases: 520
+		Alignment: 4281314 4281386 | 487 415 | 73 73 | 97.26 | Shewanella_amazonensis_SB2B_NC_008700.1 k105_77970
+
+Analyzing coverage...
+Writing SNPs into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Shewanella_amazonensis_SB2B/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Shewanella_amazonensis_SB2B/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 3 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 4338
+
+Ambiguously Mapped Contigs: 2
+Total Bases in Ambiguously Mapped Contigs: 1494
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 362
+
+	SNPs: 10
+	Insertions: 0
+	Deletions: 0
+

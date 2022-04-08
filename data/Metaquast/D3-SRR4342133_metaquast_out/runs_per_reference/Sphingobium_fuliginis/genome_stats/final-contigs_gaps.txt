@@ -1,0 +1,12 @@
+Sphingobium_fuliginis_NZ_CP060035.1
+1 515137
+515213 1624062
+1624143 2772027
+2772196 3389351
+Sphingobium_fuliginis_NZ_CP060036.1
+1 788777
+788880 1187212
+Sphingobium_fuliginis_NZ_CP060037.1
+1 387592
+Sphingobium_fuliginis_NZ_CP060038.1
+1 20017

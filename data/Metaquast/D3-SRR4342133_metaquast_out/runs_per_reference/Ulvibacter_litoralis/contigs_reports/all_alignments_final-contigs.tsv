@@ -1,0 +1,76 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+CONTIG	k105_88790	898	unaligned
+1050	1273	3051	3274	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_92396	95.98		True
+CONTIG	k105_92396	3552	correct_unaligned
+1667	1761	218	124	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_98559	98.95		True
+CONTIG	k105_98559	604	correct
+5726	5805	379	300	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_10994	97.5		True
+CONTIG	k105_10994	649	correct
+2643	2729	177	263	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_15921	95.4		True
+unknown
+4039	4115	1447	1523	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_15921	97.4		True
+unknown
+CONTIG	k105_15921	1805	mis_unaligned
+4834	4935	1	102	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_108000	97.06		True
+CONTIG	k105_108000	707	correct_unaligned
+3031	3147	150	34	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_19862	95.73		True
+indel: indel (<= 5bp)
+2733	3026	450	157	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_19862	95.24		True
+CONTIG	k105_19862	573	correct
+2406	2642	273	37	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_111527	96.2		True
+CONTIG	k105_111527	524	correct
+2406	2725	358	677	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_113269	95.31		True
+unknown
+3466	3567	1431	1532	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_113269	95.1		True
+unknown
+4038	4115	1995	2072	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_113269	97.44		True
+unknown
+4275	4503	2165	2393	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_113269	96.07		True
+unknown
+CONTIG	k105_113269	2393	mis_unaligned
+838	1143	306	1	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_118466	96.08		True
+CONTIG	k105_118466	949	correct_unaligned
+1666	1899	4	237	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_119806	95.73		True
+CONTIG	k105_119806	868	correct_unaligned
+1666	1775	4	113	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_122377	98.18		True
+unknown
+4992	5065	3252	3325	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_122377	98.65		True
+unknown
+CONTIG	k105_122377	3801	mis_unaligned
+1666	1730	610	674	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_34836	98.46		True
+CONTIG	k105_34836	674	correct_unaligned
+CONTIG	k105_35963	1728	unaligned
+1686	1898	626	414	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_127957	95.77		True
+CONTIG	k105_127957	626	correct
+1669	1774	1	106	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_48120	97.17		True
+CONTIG	k105_48120	666	correct_unaligned
+1669	1761	1	93	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_48123	98.92		True
+CONTIG	k105_48123	2056	correct_unaligned
+5729	5807	372	294	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_56860	97.47		True
+unknown
+5224	5332	884	776	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_56860	95.41		True
+unknown
+CONTIG	k105_56860	1683	mis_unaligned
+4992	5062	550	480	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_149712	98.59		True
+CONTIG	k105_149712	723	correct
+4041	4128	177	264	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_59388	95.45		True
+indel: indel (> 5bp)
+4275	4348	329	402	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_59388	100.0		True
+indel: stretch of mismatches
+4355	4503	409	557	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_59388	97.32		True
+CONTIG	k105_59388	557	correct
+1666	1748	83	1	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_160951	98.8		True
+CONTIG	k105_160951	605	correct_unaligned
+2409	2527	124	6	Ulvibacter_litoralis_NZ_FNBA01000018.1	k105_71122	95.8		True
+CONTIG	k105_71122	762	correct_unaligned
+CONTIG	k105_80889	695	unaligned
+126083	126163	1402	1482	Ulvibacter_litoralis_NZ_FNBA01000006.1	k105_4574	98.77		True
+CONTIG	k105_4574	12656	correct_unaligned
+124181	124260	151	230	Ulvibacter_litoralis_NZ_FNBA01000006.1	k105_126678	100.0		True
+CONTIG	k105_126678	1204	correct_unaligned
+124468	124545	1185	1108	Ulvibacter_litoralis_NZ_FNBA01000006.1	k105_143483	100.0		True
+CONTIG	k105_143483	1924	correct_unaligned
+124183	124262	1257	1178	Ulvibacter_litoralis_NZ_FNBA01000006.1	k105_66228	97.5		True
+CONTIG	k105_66228	1584	correct_unaligned
+26043	26129	470	556	Ulvibacter_litoralis_NZ_FNBA01000010.1	k105_126663	100.0		True
+CONTIG	k105_126663	1187	correct_unaligned

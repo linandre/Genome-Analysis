@@ -1,0 +1,103 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [Magnetococcus_marinus_MC_1_NC_008576.1]
+	Total Regions: 1
+	Total Region Length: 4719581
+Analyzing contigs...
+CONTIG: k105_12138 (1299bp)
+		This contig is unaligned. (1299 bp)
+		Unaligned bases: 1299 (number of Ns: 0)
+
+CONTIG: k105_105671 (2862bp)
+Best alignment score: 93.0 (LEN: 94, IDY: 98.94), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3370759 3370852 | 100 7 | 94 94 | 98.94 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_105671
+		Skipping redundant alignment 3620197 3620290 | 100 7 | 94 94 | 98.94 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_105671
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 93.0, number of alignments: 1, unaligned bases: 2768
+		This contig is partially unaligned. (Aligned 94 out of 2862 non-N bases (3.28%))
+		Alignment: 278817 278910 | 7 100 | 94 94 | 98.94 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_105671
+		Unaligned bases: 1 to 6 (6)
+		Unaligned bases: 101 to 2862 (2762)
+
+CONTIG: k105_36208 (701bp)
+Best alignment score: 82.0 (LEN: 84, IDY: 97.62), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 275527 275610 | 613 696 | 84 84 | 97.62 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_36208
+		Skipping redundant alignment 3623497 3623580 | 696 613 | 84 84 | 97.62 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_36208
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 82.0, number of alignments: 1, unaligned bases: 617
+		This contig is partially unaligned. (Aligned 84 out of 701 non-N bases (11.98%))
+		Alignment: 3374059 3374142 | 696 613 | 84 84 | 97.62 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_36208
+		Unaligned bases: 1 to 612 (612)
+		Unaligned bases: 697 to 701 (5)
+
+CONTIG: k105_36209 (666bp)
+Best alignment score: 82.0 (LEN: 84, IDY: 97.62), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3374059 3374142 | 661 578 | 84 84 | 97.62 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_36209
+		Skipping redundant alignment 3623497 3623580 | 661 578 | 84 84 | 97.62 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_36209
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 82.0, number of alignments: 1, unaligned bases: 582
+		This contig is partially unaligned. (Aligned 84 out of 666 non-N bases (12.61%))
+		Alignment: 275527 275610 | 578 661 | 84 84 | 97.62 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_36209
+		Unaligned bases: 1 to 577 (577)
+		Unaligned bases: 662 to 666 (5)
+
+CONTIG: k105_56995 (628bp)
+Best alignment score: 69.0 (LEN: 71, IDY: 97.18), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3622783 3622853 | 121 51 | 71 71 | 97.18 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_56995
+		Skipping redundant alignment 276254 276324 | 51 121 | 71 71 | 97.18 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_56995
+		Skipping redundant alignment 3622534 3622600 | 371 305 | 67 67 | 95.52 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_56995
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 133.0, number of alignments: 2, unaligned bases: 490
+		This contig is misassembled.
+			Warning! This contig is more unaligned than misassembled. Contig length is 628 (number of Ns: 0) and total length of all aligns is 138
+		Alignment: 3373345 3373415 | 121 51 | 71 71 | 97.18 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_56995
+		Alignment: 3373096 3373162 | 371 305 | 67 67 | 95.52 | Magnetococcus_marinus_MC_1_NC_008576.1 k105_56995
+		Unaligned bases: 490
+
+Analyzing coverage...
+Writing SNPs into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Magnetococcus_marinus_MC_1/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Magnetococcus_marinus_MC_1/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 1 + 3 part
+Half Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 5266
+
+Ambiguously Mapped Contigs: 4
+Total Bases in Ambiguously Mapped Contigs: 4857
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 400
+
+	SNPs: 10
+	Insertions: 0
+	Deletions: 0
+

@@ -1,0 +1,25 @@
+Assembly	final.contigs
+# misassemblies	21
+  # contig misassemblies	21
+    # c. relocations	0
+    # c. translocations	0
+    # c. inversions	0
+    # c. interspecies translocations	21
+  # scaffold misassemblies	0
+    # s. relocations	0
+    # s. translocations	0
+    # s. inversions	0
+    # s. interspecies translocations	0
+# misassembled contigs	13
+Misassembled contigs length	10038
+# possibly misassembled contigs	196
+    # possible misassemblies	262
+# local misassemblies	8
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	81
+# mismatches	6289
+# indels	144
+    # indels (<= 5 bp)	143
+    # indels (> 5 bp)	1
+Indels length	260

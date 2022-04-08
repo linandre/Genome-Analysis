@@ -1,0 +1,53 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1353838	1353924	1	87	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_88790	97.7		True
+CONTIG	k105_88790	898	correct_unaligned
+1350284	1350507	3051	3274	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_92396	95.54		True
+CONTIG	k105_92396	3552	correct_unaligned
+1350901	1350995	218	124	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_98559	98.95		True
+CONTIG	k105_98559	604	correct
+1915044	1915167	2198	2075	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_100842	95.16		True
+CONTIG	k105_100842	2784	correct_unaligned
+1918895	1918961	670	604	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_110896	95.52		True
+unknown
+1918156	1918228	1412	1340	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_110896	97.26		True
+unknown
+1917976	1918099	1592	1469	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_110896	95.97		True
+unknown
+CONTIG	k105_110896	1668	mis_unaligned
+3568201	3568276	5096	5021	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_112561	98.68		True
+CONTIG	k105_112561	5625	correct_unaligned
+1350900	1351132	4	237	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_119806	96.15		True
+CONTIG	k105_119806	868	correct_unaligned
+CONTIG	k105_34836	674	unaligned
+CONTIG	k105_35963	1728	unaligned
+1351172	1351257	311	226	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_35966	96.51		True
+CONTIG	k105_35966	1193	correct_unaligned
+1915330	1915434	375	271	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_127957	95.24		True
+unknown
+1915078	1915165	626	539	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_127957	98.86		True
+unknown
+CONTIG	k105_127957	626	mis_unaligned
+1353984	1354069	1875	1790	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_42342	95.35		True
+unknown
+1353816	1353924	2048	1940	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_42342	96.33		True
+unknown
+1353016	1353096	2833	2753	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_42342	98.77		True
+unknown
+CONTIG	k105_42342	4215	mis_unaligned
+1915061	1915166	1	106	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_48120	97.17		True
+CONTIG	k105_48120	666	correct_unaligned
+1350891	1350997	1	107	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_53341	99.07		True
+CONTIG	k105_53341	1247	correct_unaligned
+1350278	1350413	4022	4157	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_160840	95.59		True
+CONTIG	k105_160840	4157	correct_unaligned
+1915058	1915140	83	1	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_160951	98.8		True
+CONTIG	k105_160951	605	correct_unaligned
+1352012	1352196	118	302	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_163871	96.76		True
+local misassembly
+1352316	1352402	422	508	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_163871	95.4		True
+CONTIG	k105_163871	511	correct
+1918515	1918685	241	71	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_165786	95.32		True
+CONTIG	k105_165786	542	correct
+CONTIG	k105_166047	560	unaligned
+1351009	1351130	642	763	Owenweeksia_hongkongensis_DSM_17368_NC_016599.1	k105_84625	95.9		True
+CONTIG	k105_84625	1015	correct_unaligned

@@ -1,0 +1,197 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [Marinomonas_communis_NZ_SNZA01000001.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000002.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000003.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000004.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000005.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000006.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000007.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000008.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000009.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000010.1]
+	Loaded [Marinomonas_communis_NZ_SNZA01000011.1]
+	Total Regions: 11
+	Total Region Length: 3854463
+Analyzing contigs...
+CONTIG: k105_7783 (56925bp)
+Best alignment score: 80.0 (LEN: 80, IDY: 100.00), Total number of alignments: 17
+			Looking for the best set of alignments (out of 17 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 432409 432477 | 69 1 | 69 69 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432409 432483 | 75 1 | 75 75 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432494 432563 | 80 11 | 70 70 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432488 432563 | 80 5 | 76 76 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432446 432525 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432464 432543 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432476 432555 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432434 432513 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432470 432549 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432458 432537 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432428 432507 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432440 432519 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432452 432531 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432410 432489 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432422 432501 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Skipping redundant alignment 432416 432495 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 80.0, number of alignments: 1, unaligned bases: 56845
+		This contig is partially unaligned. (Aligned 80 out of 56925 non-N bases (0.14%))
+		Alignment: 432482 432561 | 80 1 | 80 80 | 100.0 | Marinomonas_communis_NZ_SNZA01000003.1 k105_7783
+		Unaligned bases: 81 to 56925 (56845)
+
+CONTIG: k105_103973 (601bp)
+Best alignment score: 85.0 (LEN: 87, IDY: 97.70), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 429306 429383 | 592 515 | 78 78 | 97.44 | Marinomonas_communis_NZ_SNZA01000003.1 k105_103973
+		Skipping redundant alignment 429306 429389 | 598 515 | 84 84 | 97.62 | Marinomonas_communis_NZ_SNZA01000003.1 k105_103973
+		Skipping redundant alignment 429327 429403 | 601 525 | 77 77 | 97.4 | Marinomonas_communis_NZ_SNZA01000003.1 k105_103973
+		Skipping redundant alignment 429321 429403 | 601 519 | 83 83 | 97.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_103973
+		Skipping redundant alignment 429309 429395 | 601 515 | 87 87 | 97.7 | Marinomonas_communis_NZ_SNZA01000003.1 k105_103973
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 85.0, number of alignments: 1, unaligned bases: 514
+		This contig is partially unaligned. (Aligned 87 out of 601 non-N bases (14.48%))
+		Alignment: 429315 429401 | 601 515 | 87 87 | 97.7 | Marinomonas_communis_NZ_SNZA01000003.1 k105_103973
+		Unaligned bases: 1 to 514 (514)
+
+CONTIG: k105_113431 (52811bp)
+Best alignment score: 70.0 (LEN: 71, IDY: 98.59), Total number of alignments: 14
+			Looking for the best set of alignments (out of 14 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 432466 432536 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432460 432530 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432418 432488 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432448 432518 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432490 432560 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432442 432512 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432412 432482 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432424 432494 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432472 432542 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432454 432524 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432484 432554 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432436 432506 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Skipping redundant alignment 432430 432500 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 70.0, number of alignments: 1, unaligned bases: 52740
+		This contig is partially unaligned. (Aligned 71 out of 52811 non-N bases (0.13%))
+		Alignment: 432478 432548 | 52811 52741 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_113431
+		Unaligned bases: 1 to 52740 (52740)
+
+CONTIG: k105_76436 (1313bp)
+Best alignment score: 74.0 (LEN: 75, IDY: 98.67), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 429333 429403 | 1012 1082 | 71 71 | 98.59 | Marinomonas_communis_NZ_SNZA01000003.1 k105_76436
+		Skipping redundant alignment 429306 429377 | 1015 1086 | 72 72 | 98.61 | Marinomonas_communis_NZ_SNZA01000003.1 k105_76436
+		Skipping redundant alignment 429321 429395 | 1012 1086 | 75 75 | 98.67 | Marinomonas_communis_NZ_SNZA01000003.1 k105_76436
+		Skipping redundant alignment 429315 429389 | 1012 1086 | 75 75 | 98.67 | Marinomonas_communis_NZ_SNZA01000003.1 k105_76436
+		Skipping redundant alignment 429309 429383 | 1012 1086 | 75 75 | 98.67 | Marinomonas_communis_NZ_SNZA01000003.1 k105_76436
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 74.0, number of alignments: 1, unaligned bases: 1238
+		This contig is partially unaligned. (Aligned 75 out of 1313 non-N bases (5.71%))
+		Alignment: 429327 429401 | 1012 1086 | 75 75 | 98.67 | Marinomonas_communis_NZ_SNZA01000003.1 k105_76436
+		Unaligned bases: 1 to 1011 (1011)
+		Unaligned bases: 1087 to 1313 (227)
+
+CONTIG: k105_10241 (598bp)
+Best alignment score: 100.0 (LEN: 104, IDY: 96.15), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 100.0, number of alignments: 1, unaligned bases: 494
+		Alignment: 2951 3054 | 191 88 | 104 104 | 96.15 | Marinomonas_communis_NZ_SNZA01000010.1 k105_10241
+
+CONTIG: k105_103508 (1671bp)
+		This contig is unaligned. (1671 bp)
+		Unaligned bases: 1671 (number of Ns: 0)
+
+CONTIG: k105_16536 (542bp)
+Best alignment score: 181.0 (LEN: 189, IDY: 95.77), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 181.0, number of alignments: 1, unaligned bases: 353
+		Alignment: 4711 4899 | 542 354 | 189 189 | 95.77 | Marinomonas_communis_NZ_SNZA01000010.1 k105_16536
+
+CONTIG: k105_20989 (1619bp)
+Best alignment score: 205.0 (LEN: 214, IDY: 95.79), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 205.0, number of alignments: 1, unaligned bases: 1405
+		This contig is partially unaligned. (Aligned 214 out of 1619 non-N bases (13.22%))
+		Alignment: 1277 1490 | 1619 1406 | 214 214 | 95.79 | Marinomonas_communis_NZ_SNZA01000010.1 k105_20989
+		Unaligned bases: 1 to 1405 (1405)
+
+CONTIG: k105_33925 (821bp)
+Best alignment score: 302.0 (LEN: 314, IDY: 96.18), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 302.0, number of alignments: 1, unaligned bases: 507
+		Alignment: 461 774 | 324 11 | 314 314 | 96.18 | Marinomonas_communis_NZ_SNZA01000010.1 k105_33925
+
+CONTIG: k105_34834 (674bp)
+		This contig is unaligned. (674 bp)
+		Unaligned bases: 674 (number of Ns: 0)
+
+CONTIG: k105_145111 (742bp)
+Best alignment score: 234.0 (LEN: 245, IDY: 95.51), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 234.0, number of alignments: 1, unaligned bases: 497
+		Alignment: 460 704 | 498 742 | 245 245 | 95.51 | Marinomonas_communis_NZ_SNZA01000010.1 k105_145111
+
+CONTIG: k105_145509 (728bp)
+Best alignment score: 232.0 (LEN: 244, IDY: 95.08), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 232.0, number of alignments: 1, unaligned bases: 484
+		Alignment: 1247 1490 | 728 485 | 244 244 | 95.08 | Marinomonas_communis_NZ_SNZA01000010.1 k105_145509
+
+CONTIG: k105_161594 (829bp)
+Best alignment score: 111.0 (LEN: 116, IDY: 95.69), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 111.0, number of alignments: 1, unaligned bases: 713
+		This contig is partially unaligned. (Aligned 116 out of 829 non-N bases (13.99%))
+		Alignment: 2094 2209 | 714 829 | 116 116 | 95.69 | Marinomonas_communis_NZ_SNZA01000010.1 k105_161594
+		Unaligned bases: 1 to 713 (713)
+
+CONTIG: k105_80416 (992bp)
+Best alignment score: 358.1 (LEN: 376, IDY: 95.24), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 358.1, number of alignments: 1, unaligned bases: 616
+		This contig is partially unaligned. (Aligned 376 out of 992 non-N bases (37.90%))
+		Alignment: 4690 5067 | 1 376 | 378 376 | 95.24 | Marinomonas_communis_NZ_SNZA01000010.1 k105_80416
+		Unaligned bases: 377 to 992 (616)
+
+Analyzing coverage...
+Writing SNPs into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Marinomonas_communis/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Marinomonas_communis/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 2 + 7 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 116416
+
+Ambiguously Mapped Contigs: 4
+Total Bases in Ambiguously Mapped Contigs: 111650
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 1328
+
+	SNPs: 81
+	Insertions: 0
+	Deletions: 2
+

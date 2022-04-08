@@ -1,0 +1,20 @@
+Paracoccus_aminophilus_NC_022041.1
+1 58442
+58520 72985
+73189 73422
+73896 157920
+158003 158477
+158636 158862
+159043 2512664
+2512752 2912171
+2912378 3613807
+Paracoccus_aminophilus_NC_022042.1
+1 118164
+Paracoccus_aminophilus_NC_022043.1
+1 294017
+Paracoccus_aminophilus_NC_022044.1
+1 206583
+Paracoccus_aminophilus_NC_022049.1
+1 438126
+Paracoccus_aminophilus_NC_022050.1
+1 202421

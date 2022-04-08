@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.387*0.48] collected minimizers
+[M::mm_idx_gen::0.461*0.50] sorted minimizers
+[M::main::0.461*0.50] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.470*0.51] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.476*0.52] distinct minimizers: 457320 (99.22% are singletons); average occurrences: 1.014; average spacing: 9.991
+[M::worker_pipeline::0.487*0.53] mapped 17 sequences
+[M::main] Version: 2.11-r797
+[M::main] CMD: /sw/bioinfo/quast/5.0.2/rackham/lib/python3.7/site-packages/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/quast_corrected_input/Fluviicola_taffensis_DSM_16823.fasta /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/quast_corrected_input/final-contigs_to_Fluviicola_taffensis_DSM_16823.fasta
+[M::main] Real time: 0.493 sec; CPU: 0.264 sec

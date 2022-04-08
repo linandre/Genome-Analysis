@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.203*0.79] collected minimizers
+[M::mm_idx_gen::0.257*0.78] sorted minimizers
+[M::main::0.257*0.78] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.265*0.79] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.277*0.77] distinct minimizers: 425002 (99.62% are singletons); average occurrences: 1.014; average spacing: 9.992
+[M::worker_pipeline::0.308*0.72] mapped 4 sequences
+[M::main] Version: 2.11-r797
+[M::main] CMD: /sw/bioinfo/quast/5.0.2/rackham/lib/python3.7/site-packages/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/quast_corrected_input/Shewanella_amazonensis_SB2B.fasta /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/quast_corrected_input/final-contigs_to_Shewanella_amazonensis_SB2B.fasta
+[M::main] Real time: 0.313 sec; CPU: 0.228 sec

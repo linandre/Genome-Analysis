@@ -1,0 +1,49 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+52771	52868	264	167	Pseudoruegeria_aquimaris_NZ_FWFQ01000012.1	k105_2101	97.96		True
+CONTIG	k105_2101	844	correct_unaligned
+4199	4293	486	580	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_92047	95.79		True
+unknown
+4296	4401	594	699	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_92047	98.11		True
+unknown
+CONTIG	k105_92047	700	mis_unaligned
+1645	1732	361	274	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_6392	95.45		True
+unknown
+1359	1445	658	572	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_6392	95.4		True
+unknown
+CONTIG	k105_6392	1341	mis_unaligned
+502	1014	513	1	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_125811	99.03		True
+CONTIG	k105_125811	513	correct
+5004	5315	869	558	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_46508	96.15		True
+CONTIG	k105_46508	869	correct_unaligned
+5004	5314	684	374	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_46509	98.07		True
+CONTIG	k105_46509	684	correct
+2860	3029	197	28	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_49235	97.06		True
+unknown
+2466	2556	593	503	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_49235	96.7		True
+unknown
+1647	1734	1484	1397	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_49235	97.73		True
+unknown
+CONTIG	k105_49235	1678	mis_unaligned
+254	415	428	589	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_148643	95.06		True
+CONTIG	k105_148643	599	correct
+CONTIG	k105_56995	628	unaligned
+2470	2582	829	717	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_62469	95.58		True
+CONTIG	k105_62469	1125	correct_unaligned
+4657	5108	452	1	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_156177	96.9		True
+CONTIG	k105_156177	575	correct
+CONTIG	k105_67437	1018	unaligned
+3518	3715	842	645	Pseudoruegeria_aquimaris_NZ_FWFQ01000052.1	k105_69205	96.97		True
+CONTIG	k105_69205	842	correct_unaligned
+CONTIG	k105_92281	1395	unaligned
+CONTIG	k105_139672	626	unaligned
+242237	242316	80	1	Pseudoruegeria_aquimaris_NZ_FWFQ01000002.1	k105_7783	100.0		True
+CONTIG	k105_7783	56925	correct_unaligned
+242263	242333	52811	52741	Pseudoruegeria_aquimaris_NZ_FWFQ01000002.1	k105_113431	98.59		True
+CONTIG	k105_113431	52811	correct_unaligned
+CONTIG	k105_11833	700	unaligned
+117799	117891	162	254	Pseudoruegeria_aquimaris_NZ_FWFQ01000003.1	k105_126654	97.85		True
+CONTIG	k105_126654	502	correct
+109841	109944	308	411	Pseudoruegeria_aquimaris_NZ_FWFQ01000011.1	k105_135667	95.19		True
+CONTIG	k105_135667	1428	correct_unaligned
+852	939	495	582	Pseudoruegeria_aquimaris_NZ_FWFQ01000046.1	k105_142783	98.86		True
+CONTIG	k105_142783	725	correct

@@ -1,0 +1,93 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+68067	68186	852	971	marine_gamma_proteobacterium_HTCC2080_AAVV01000011.1	k105_89696	96.67		True
+CONTIG	k105_89696	971	correct_unaligned
+97815	97893	644	722	marine_gamma_proteobacterium_HTCC2080_AAVV01000011.1	k105_158788	100.0		True
+CONTIG	k105_158788	1615	correct_unaligned
+68067	68186	573	692	marine_gamma_proteobacterium_HTCC2080_AAVV01000011.1	k105_77393	97.5		True
+CONTIG	k105_77393	692	correct_unaligned
+32729	32857	392	264	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_3685	96.12		True
+unknown
+32156	32257	964	863	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_3685	95.1		True
+unknown
+CONTIG	k105_3685	989	mis_unaligned
+33593	33687	105	11	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_99063	95.79		True
+CONTIG	k105_99063	727	correct_unaligned
+32156	32256	26	126	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_100995	96.04		True
+CONTIG	k105_100995	1471	correct_unaligned
+30651	30738	147	234	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_103505	95.45		True
+CONTIG	k105_103505	941	correct_unaligned
+34241	34621	903	522	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_104231	96.86		True
+CONTIG	k105_104231	903	correct_unaligned
+33606	34382	1	777	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_105016	98.2		True
+CONTIG	k105_105016	777	correct
+CONTIG	k105_42376	901	unaligned
+31250	31314	1	65	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_47166	100.0		True
+indel: indel (<= 5bp)
+31325	31400	75	150	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_47166	98.68		True
+local misassembly
+32087	32256	889	1058	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_47166	99.41		True
+indel: indel (<= 5bp)
+32267	33698	1067	2498	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_47166	97.21		True
+CONTIG	k105_47166	2498	correct
+30747	31156	626	217	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_139738	96.83		True
+CONTIG	k105_139738	626	correct
+33454	33683	440	669	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_150150	96.52		True
+CONTIG	k105_150150	669	correct
+30270	30349	264	343	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_155106	95.0		True
+CONTIG	k105_155106	603	correct
+34070	34217	458	605	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_160951	95.27		True
+CONTIG	k105_160951	605	correct
+29539	30851	1313	1	marine_gamma_proteobacterium_HTCC2080_AAVV01000015.1	k105_82171	95.74		True
+CONTIG	k105_82171	1570	correct
+23632	23795	587	750	marine_gamma_proteobacterium_HTCC2080_AAVV01000013.1	k105_91023	96.95		True
+CONTIG	k105_91023	750	correct_unaligned
+20066	20158	448	540	marine_gamma_proteobacterium_HTCC2080_AAVV01000013.1	k105_81265	98.92		True
+CONTIG	k105_81265	692	correct
+232290	232366	647	571	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_5718	100.0		True
+CONTIG	k105_5718	755	correct_unaligned
+121620	121708	3929	3841	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_37818	98.88		True
+CONTIG	k105_37818	6954	correct_unaligned
+391390	391567	2543	2720	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_50301	100.0		True
+CONTIG	k105_50301	2823	correct_unaligned
+232077	232142	98	33	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_61151	95.45		True
+CONTIG	k105_61151	1180	correct_unaligned
+230965	231045	135	55	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_70390	97.53		True
+CONTIG	k105_70390	1417	correct_unaligned
+230735	230812	319	242	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_70392	100.0		True
+unknown
+230636	230711	410	335	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_70392	97.37		True
+unknown
+230465	230568	581	478	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_70392	96.15		True
+unknown
+177836	177911	782	707	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_70392	100.0		True
+unknown
+CONTIG	k105_70392	1466	mis_unaligned
+232290	232366	403	327	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_72581	100.0		True
+CONTIG	k105_72581	633	correct
+247581	247798	762	545	marine_gamma_proteobacterium_HTCC2080_AAVV01000001.1	k105_82730	95.41		True
+CONTIG	k105_82730	863	correct_unaligned
+158019	158108	90	1	marine_gamma_proteobacterium_HTCC2080_AAVV01000006.1	k105_94695	98.89		True
+CONTIG	k105_94695	7316	correct_unaligned
+158023	158102	252	173	marine_gamma_proteobacterium_HTCC2080_AAVV01000006.1	k105_111164	97.5		True
+CONTIG	k105_111164	596	correct
+64750	64834	2314	2398	marine_gamma_proteobacterium_HTCC2080_AAVV01000006.1	k105_112104	97.65		True
+CONTIG	k105_112104	2860	correct_unaligned
+158019	158108	4370	4281	marine_gamma_proteobacterium_HTCC2080_AAVV01000006.1	k105_35458	98.89		True
+CONTIG	k105_35458	4385	correct_unaligned
+250924	251005	707	626	marine_gamma_proteobacterium_HTCC2080_AAVV01000007.1	k105_103590	98.78		True
+unknown
+250795	250889	840	746	marine_gamma_proteobacterium_HTCC2080_AAVV01000007.1	k105_103590	95.79		True
+unknown
+CONTIG	k105_103590	1045	mis_unaligned
+91763	91855	1230	1322	marine_gamma_proteobacterium_HTCC2080_AAVV01000002.1	k105_113127	97.85		True
+CONTIG	k105_113127	1930	correct_unaligned
+85276	85352	172	96	marine_gamma_proteobacterium_HTCC2080_AAVV01000002.1	k105_30320	100.0		True
+CONTIG	k105_30320	502	correct
+25119	25218	1207	1306	marine_gamma_proteobacterium_HTCC2080_AAVV01000021.1	k105_26908	96.0		True
+CONTIG	k105_26908	1350	correct_unaligned
+15770	15851	303	222	marine_gamma_proteobacterium_HTCC2080_AAVV01000020.1	k105_41497	100.0		True
+CONTIG	k105_41497	535	correct
+122927	122995	6708	6640	marine_gamma_proteobacterium_HTCC2080_AAVV01000010.1	k105_52446	95.65		True
+CONTIG	k105_52446	8796	correct_unaligned
+102723	102804	83	2	marine_gamma_proteobacterium_HTCC2080_AAVV01000005.1	k105_76003	100.0		True
+CONTIG	k105_76003	1085	correct_unaligned

@@ -1,0 +1,39 @@
+reference chromosomes:
+	Nocardioides_albus_NZ_JACHXG010000001.1 (total length: 731758 bp, total length without N's: 731748 bp, maximal covered length: 196 bp)
+	Nocardioides_albus_NZ_JACHXG010000002.1 (total length: 701987 bp, total length without N's: 701987 bp, maximal covered length: 88 bp)
+	Nocardioides_albus_NZ_JACHXG010000003.1 (total length: 591738 bp, total length without N's: 591633 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000004.1 (total length: 590994 bp, total length without N's: 590994 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000005.1 (total length: 537021 bp, total length without N's: 536924 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000006.1 (total length: 441649 bp, total length without N's: 441543 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000007.1 (total length: 407492 bp, total length without N's: 407492 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000008.1 (total length: 259686 bp, total length without N's: 259686 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000009.1 (total length: 219374 bp, total length without N's: 219374 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000010.1 (total length: 196487 bp, total length without N's: 196487 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000011.1 (total length: 163471 bp, total length without N's: 163374 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000012.1 (total length: 137484 bp, total length without N's: 137484 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000013.1 (total length: 130405 bp, total length without N's: 130405 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000014.1 (total length: 118505 bp, total length without N's: 118505 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000015.1 (total length: 99984 bp, total length without N's: 99984 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000016.1 (total length: 92839 bp, total length without N's: 92839 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000017.1 (total length: 59874 bp, total length without N's: 59874 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000018.1 (total length: 47351 bp, total length without N's: 47351 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000019.1 (total length: 34795 bp, total length without N's: 34795 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000020.1 (total length: 31360 bp, total length without N's: 31360 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000021.1 (total length: 22263 bp, total length without N's: 22263 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000022.1 (total length: 17478 bp, total length without N's: 17283 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000023.1 (total length: 11710 bp, total length without N's: 11710 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000024.1 (total length: 5315 bp, total length without N's: 5218 bp, maximal covered length: 850 bp)
+	Nocardioides_albus_NZ_JACHXG010000025.1 (total length: 1976 bp, total length without N's: 1976 bp, maximal covered length: 0 bp)
+	Nocardioides_albus_NZ_JACHXG010000026.1 (total length: 1320 bp, total length without N's: 1320 bp, maximal covered length: 0 bp)
+
+total genome size: 5654316
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+final-contigs_to_Nocardi | 0.020     | 3.062       | 42        | -         | -         | -         | -         |

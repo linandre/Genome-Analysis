@@ -1,0 +1,24 @@
+reference chromosomes:
+	Marinomonas_communis_NZ_SNZA01000001.1 (total length: 1371506 bp, total length without N's: 1371317 bp, maximal covered length: 0 bp)
+	Marinomonas_communis_NZ_SNZA01000002.1 (total length: 575095 bp, total length without N's: 575095 bp, maximal covered length: 0 bp)
+	Marinomonas_communis_NZ_SNZA01000003.1 (total length: 537831 bp, total length without N's: 537831 bp, maximal covered length: 171 bp)
+	Marinomonas_communis_NZ_SNZA01000004.1 (total length: 461746 bp, total length without N's: 461746 bp, maximal covered length: 0 bp)
+	Marinomonas_communis_NZ_SNZA01000005.1 (total length: 343469 bp, total length without N's: 343375 bp, maximal covered length: 0 bp)
+	Marinomonas_communis_NZ_SNZA01000006.1 (total length: 286736 bp, total length without N's: 286736 bp, maximal covered length: 0 bp)
+	Marinomonas_communis_NZ_SNZA01000007.1 (total length: 156463 bp, total length without N's: 156364 bp, maximal covered length: 0 bp)
+	Marinomonas_communis_NZ_SNZA01000008.1 (total length: 64159 bp, total length without N's: 64159 bp, maximal covered length: 0 bp)
+	Marinomonas_communis_NZ_SNZA01000009.1 (total length: 49319 bp, total length without N's: 49319 bp, maximal covered length: 0 bp)
+	Marinomonas_communis_NZ_SNZA01000010.1 (total length: 5113 bp, total length without N's: 5113 bp, maximal covered length: 1157 bp)
+	Marinomonas_communis_NZ_SNZA01000011.1 (total length: 3026 bp, total length without N's: 3026 bp, maximal covered length: 0 bp)
+
+total genome size: 3854463
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+final-contigs_to_Marinom | 0.034     | 3.351       | 21        | -         | -         | -         | -         |

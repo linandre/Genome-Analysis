@@ -1,0 +1,16 @@
+reference chromosomes:
+	Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 (total length: 5241379 bp, total length without N's: 5241379 bp, maximal covered length: 2470 bp)
+	Methylobacter_sp._XLMV4_NZ_WUTY02000002.1 (total length: 535303 bp, total length without N's: 535303 bp, maximal covered length: 0 bp)
+	Methylobacter_sp._XLMV4_NZ_WUTY02000003.1 (total length: 69900 bp, total length without N's: 69900 bp, maximal covered length: 0 bp)
+
+total genome size: 5846582
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+final-contigs_to_Methylo | 0.042     | 2.558       | 14        | -         | -         | -         | -         |

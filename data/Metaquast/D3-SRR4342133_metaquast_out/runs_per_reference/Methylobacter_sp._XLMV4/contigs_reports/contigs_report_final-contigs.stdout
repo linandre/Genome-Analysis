@@ -1,0 +1,230 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [Methylobacter_sp._XLMV4_NZ_WUTY02000001.1]
+	Loaded [Methylobacter_sp._XLMV4_NZ_WUTY02000002.1]
+	Loaded [Methylobacter_sp._XLMV4_NZ_WUTY02000003.1]
+	Total Regions: 3
+	Total Region Length: 5846582
+Analyzing contigs...
+CONTIG: k105_87490 (597bp)
+		This contig is unaligned. (597 bp)
+		Unaligned bases: 597 (number of Ns: 0)
+
+CONTIG: k105_92421 (2426bp)
+Best alignment score: 76.0 (LEN: 78, IDY: 97.44), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 76.0, number of alignments: 1, unaligned bases: 2348
+		This contig is partially unaligned. (Aligned 78 out of 2426 non-N bases (3.22%))
+		Alignment: 5075023 5075100 | 363 286 | 78 78 | 97.44 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_92421
+		Unaligned bases: 1 to 285 (285)
+		Unaligned bases: 364 to 2426 (2063)
+
+CONTIG: k105_10241 (598bp)
+Best alignment score: 97.0 (LEN: 101, IDY: 96.04), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 412099 412199 | 193 93 | 101 101 | 96.04 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_10241
+		Skipping redundant alignment 764068 764168 | 193 93 | 101 101 | 96.04 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_10241
+		Skipping redundant alignment 411734 411829 | 560 465 | 96 96 | 95.83 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_10241
+		Skipping redundant alignment 763703 763798 | 560 465 | 96 96 | 95.83 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_10241
+			The best set is below. Score: 192.0, number of alignments: 2, unaligned bases: 398
+		This contig is misassembled.
+			Warning! This contig is more unaligned than misassembled. Contig length is 598 (number of Ns: 0) and total length of all aligns is 200
+		Alignment: 1135517 1135617 | 92 192 | 101 101 | 96.04 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_10241
+		Alignment: 1135885 1135983 | 462 560 | 99 99 | 95.96 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_10241
+		Unaligned bases: 398
+
+CONTIG: k105_99063 (727bp)
+Best alignment score: 91.0 (LEN: 95, IDY: 95.79), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1137215 1137309 | 105 11 | 95 95 | 95.79 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_99063
+		Skipping redundant alignment 762377 762471 | 11 105 | 95 95 | 95.79 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_99063
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 91.0, number of alignments: 1, unaligned bases: 632
+		This contig is partially unaligned. (Aligned 95 out of 727 non-N bases (13.07%))
+		Alignment: 410408 410502 | 11 105 | 95 95 | 95.79 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_99063
+		Unaligned bases: 1 to 10 (10)
+		Unaligned bases: 106 to 727 (622)
+
+CONTIG: k105_100995 (1471bp)
+Best alignment score: 388.0 (LEN: 404, IDY: 96.04), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1136089 1136492 | 343 746 | 404 404 | 95.54 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_100995
+		Skipping redundant alignment 763192 763595 | 748 345 | 404 404 | 96.04 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_100995
+		Skipping redundant alignment 762646 762820 | 1298 1124 | 175 175 | 95.43 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_100995
+		Skipping redundant alignment 1136866 1137040 | 1124 1298 | 175 175 | 95.43 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_100995
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 555.0, number of alignments: 2, unaligned bases: 892
+		This contig is misassembled.
+			Warning! This contig is more unaligned than misassembled. Contig length is 1471 (number of Ns: 0) and total length of all aligns is 579
+		Alignment: 411223 411626 | 748 345 | 404 404 | 96.04 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_100995
+		Alignment: 410677 410851 | 1298 1124 | 175 175 | 95.43 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_100995
+		Unaligned bases: 892
+
+CONTIG: k105_107024 (608bp)
+Best alignment score: 579.0 (LEN: 608, IDY: 95.23), Total number of alignments: 3
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 409898 410505 | 1 608 | 608 608 | 95.23 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_107024
+			Skipping alignment 1137212 1137819 | 608 1 | 608 608 | 95.23 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_107024
+			Skipping alignment 761867 762474 | 1 608 | 608 608 | 95.23 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_107024
+
+CONTIG: k105_111708 (7121bp)
+Best alignment score: 210.0 (LEN: 221, IDY: 95.02), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 761597 761817 | 223 3 | 221 221 | 95.02 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_111708
+		Skipping redundant alignment 1137869 1138089 | 3 223 | 221 221 | 95.02 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_111708
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 210.0, number of alignments: 1, unaligned bases: 6900
+		This contig is partially unaligned. (Aligned 221 out of 7121 non-N bases (3.10%))
+		Alignment: 409628 409848 | 223 3 | 221 221 | 95.02 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_111708
+		Unaligned bases: 1 to 2 (2)
+		Unaligned bases: 224 to 7121 (6898)
+
+CONTIG: k105_111710 (1214bp)
+Best alignment score: 238.0 (LEN: 247, IDY: 96.36), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 409602 409848 | 249 3 | 247 247 | 96.36 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_111710
+		Skipping redundant alignment 761571 761817 | 249 3 | 247 247 | 96.36 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_111710
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 238.0, number of alignments: 1, unaligned bases: 967
+		This contig is partially unaligned. (Aligned 247 out of 1214 non-N bases (20.35%))
+		Alignment: 1137869 1138115 | 3 249 | 247 247 | 96.36 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_111710
+		Unaligned bases: 1 to 2 (2)
+		Unaligned bases: 250 to 1214 (965)
+
+CONTIG: k105_112193 (594bp)
+Best alignment score: 140.0 (LEN: 147, IDY: 95.24), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 140.0, number of alignments: 1, unaligned bases: 447
+		Alignment: 1133487 1133633 | 594 448 | 147 147 | 95.24 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_112193
+
+CONTIG: k105_113900 (2532bp)
+Best alignment score: 72.0 (LEN: 72, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 72.0, number of alignments: 1, unaligned bases: 2460
+		This contig is partially unaligned. (Aligned 72 out of 2532 non-N bases (2.84%))
+		Alignment: 1425614 1425685 | 2402 2331 | 72 72 | 100.0 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_113900
+		Unaligned bases: 1 to 2330 (2330)
+		Unaligned bases: 2403 to 2532 (130)
+
+CONTIG: k105_34834 (674bp)
+		This contig is unaligned. (674 bp)
+		Unaligned bases: 674 (number of Ns: 0)
+
+CONTIG: k105_126256 (640bp)
+Best alignment score: 73.0 (LEN: 73, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 73.0, number of alignments: 1, unaligned bases: 567
+		Alignment: 1425614 1425686 | 560 488 | 73 73 | 100.0 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_126256
+
+CONTIG: k105_44354 (16005bp)
+Best alignment score: 72.0 (LEN: 72, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 72.0, number of alignments: 1, unaligned bases: 15933
+		This contig is partially unaligned. (Aligned 72 out of 16005 non-N bases (0.45%))
+		Alignment: 1425614 1425685 | 208 279 | 72 72 | 100.0 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_44354
+		Unaligned bases: 1 to 207 (207)
+		Unaligned bases: 280 to 16005 (15726)
+
+CONTIG: k105_143950 (876bp)
+Best alignment score: 178.0 (LEN: 183, IDY: 97.27), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1134547 1134726 | 1 180 | 180 180 | 97.22 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_143950
+		Skipping redundant alignment 412989 413171 | 183 1 | 183 183 | 97.27 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_143950
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 178.0, number of alignments: 1, unaligned bases: 693
+		This contig is partially unaligned. (Aligned 183 out of 876 non-N bases (20.89%))
+		Alignment: 764957 765139 | 183 1 | 183 183 | 97.27 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_143950
+		Unaligned bases: 184 to 876 (693)
+
+CONTIG: k105_65887 (1030bp)
+Best alignment score: 72.0 (LEN: 72, IDY: 100.00), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 72.0, number of alignments: 1, unaligned bases: 958
+		This contig is partially unaligned. (Aligned 72 out of 1030 non-N bases (6.99%))
+		Alignment: 1425614 1425685 | 328 399 | 72 72 | 100.0 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_65887
+		Unaligned bases: 1 to 327 (327)
+		Unaligned bases: 400 to 1030 (631)
+
+CONTIG: k105_161594 (829bp)
+Best alignment score: 111.0 (LEN: 116, IDY: 95.69), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1136969 1137040 | 321 250 | 72 72 | 98.61 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_161594
+		Skipping redundant alignment 762644 762717 | 248 321 | 74 74 | 95.95 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_161594
+		Skipping redundant alignment 1136357 1136472 | 829 714 | 116 116 | 95.69 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_161594
+		Skipping redundant alignment 763214 763329 | 714 829 | 116 116 | 95.69 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_161594
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 175.0, number of alignments: 2, unaligned bases: 639
+		This contig is misassembled.
+			Warning! This contig is more unaligned than misassembled. Contig length is 829 (number of Ns: 0) and total length of all aligns is 190
+		Alignment: 410675 410748 | 248 321 | 74 74 | 95.95 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_161594
+		Alignment: 411245 411360 | 714 829 | 116 116 | 95.69 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_161594
+		Unaligned bases: 639
+
+CONTIG: k105_161743 (539bp)
+Best alignment score: 126.0 (LEN: 132, IDY: 95.45), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 765521 765652 | 539 408 | 132 132 | 95.45 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_161743
+		Skipping redundant alignment 413553 413684 | 539 408 | 132 132 | 95.45 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_161743
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 126.0, number of alignments: 1, unaligned bases: 407
+		Alignment: 1134034 1134165 | 408 539 | 132 132 | 95.45 | Methylobacter_sp._XLMV4_NZ_WUTY02000001.1 k105_161743
+
+CONTIG: k105_77970 (593bp)
+		This contig is unaligned. (593 bp)
+		Unaligned bases: 593 (number of Ns: 0)
+
+CONTIG: k105_81277 (807bp)
+		This contig is unaligned. (807 bp)
+		Unaligned bases: 807 (number of Ns: 0)
+
+Analyzing coverage...
+Writing SNPs into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Methylobacter_sp._XLMV4/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/andreak/Genome_Analysis/Genome-Analysis/data/Metaquast/D3-SRR4342133_metaquast_out/runs_per_reference/Methylobacter_sp._XLMV4/contigs_reports/minimap_output/final-contigs.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 4 + 8 part
+Half Unaligned Contigs with Misassemblies: 3
+Unaligned Contig Bases: 33562
+
+Ambiguously Mapped Contigs: 8
+Total Bases in Ambiguously Mapped Contigs: 13385
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 2470
+
+	SNPs: 113
+	Insertions: 0
+	Deletions: 0
+

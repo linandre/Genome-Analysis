@@ -1,0 +1,15 @@
+reference chromosomes:
+	Magnetospira_sp._QH_2_NZ_FO538765.1 (total length: 4021307 bp, total length without N's: 4021307 bp, maximal covered length: 1192 bp)
+	Magnetospira_sp._QH_2_NZ_FO538766.1 (total length: 31063 bp, total length without N's: 31063 bp, maximal covered length: 0 bp)
+
+total genome size: 4052370
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+final-contigs_to_Magneto | 0.029     | 2.714       | 10        | -         | -         | -         | -         |
