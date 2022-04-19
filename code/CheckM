@@ -13,10 +13,10 @@ module load bioinfo-tools
 module load CheckM
 
 # Set directories
-INDIR = "/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat"
+INDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat"
 #/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat/D1_metabat
 #/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat/D3_metabat
-OUTDIR = "/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm"
+OUTDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm"
 #/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm/D1_checkm
 #/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm/D3_checkm
 
