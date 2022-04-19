@@ -24,7 +24,7 @@ OUTDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm"
 cd $OUTDIR 
 
 # Copy the CheckM data
-cp -av $CHECKM_DATA/checkm_data_2015_01_16/* .
+cp -av $CHECKM_DATA/2015_01_16/* .
 checkm data setRoot $PWD
 
 # Run the analyses with common workflow 
