@@ -1,0 +1,7 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -J binning_eval
+#SBATCH -t 05:00:00
+#SBATCH --mail-type=ALL
