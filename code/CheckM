@@ -24,9 +24,9 @@ OUTDIR = "/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm"
 cd $OUTDIR 
 
 # Copy the CheckM data
-cp -av $CHECKM_DATA/checkm_data_2015_01_16.tar.gz .
+cp -av $CHECKM_DATA/checkm_data_2015_01_16/* .
 checkm data setRoot $PWD
 
 # Run the analyses with common workflow 
-checkm lineage_wf -t 6 -x fa --reduced_tree $INDIR/D1_metabat/ $OUTDIR/D1_checkm
-checkm lineage_wf -t 6 -x fa --reduced_tree $INDIR/D3_metabat/ $OUTDIR/D3_checkm
+checkm lineage_wf -t 10 -x fa --reduced_tree $INDIR/D1_metabat/ $OUTDIR/D1-SRR4342129_checkm
+checkm lineage_wf -t 10 -x fa --reduced_tree $INDIR/D3_metabat/ $OUTDIR/D3-SRR4342133_checkm
