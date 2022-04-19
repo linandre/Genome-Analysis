@@ -1,7 +1,32 @@
 #!/bin/bash -l
-#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -A uppmax2022-2-5
+#SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 4
-#SBATCH -J binning_eval
-#SBATCH -t 05:00:00
+#SBATCH -t 02:00:00
+#SBATCH -J checkm
 #SBATCH --mail-type=ALL
+#SBATCH --mail-user stavroula.andreakou.9085@student.uu.se
+
+# Load modules
+module load bioinfo-tools
+module load CheckM
+
+# Set directories
+INDIR = "/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat"
+#/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat/D1_metabat
+#/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat/D3_metabat
+OUTDIR = "/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm"
+#/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm/D1_checkm
+#/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm/D3_checkm
+
+# Set a working directory that we want
+cd $OUTDIR 
+
+# Copy the CheckM data
+cp -av $CHECKM_DATA/checkm_data_2015_01_16.tar.gz .
+checkm data setRoot $PWD
+
+# Run the analyses with common workflow 
+checkm lineage_wf -t 6 -x fa --reduced_tree $INDIR/D1_metabat/ $OUTDIR/D1_checkm
+checkm lineage_wf -t 6 -x fa --reduced_tree $INDIR/D3_metabat/ $OUTDIR/D3_checkm
