@@ -14,11 +14,8 @@ module load CheckM
 
 # Set directories
 INDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat"
-#/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat/D1_metabat
-#/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat/D3_metabat
 OUTDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm"
-#/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm/D1_checkm
-#/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm/D3_checkm
+
 
 # Set a working directory that we want
 cd $OUTDIR 
@@ -30,3 +27,11 @@ checkm data setRoot $PWD
 # Run the analyses with common workflow 
 checkm lineage_wf -t 10 -x fa --reduced_tree $INDIR/D1_metabat/ $OUTDIR/D1-SRR4342129_checkm
 checkm lineage_wf -t 10 -x fa --reduced_tree $INDIR/D3_metabat/ $OUTDIR/D3-SRR4342133_checkm
+
+# analyze: identify marker genes in bins --> <marker file> <bin folder> <output folder>
+checkm analyze -t 10 -x fa $OUTDIR/D1-SRR4342129_checkm/lineage.ms $INDIR/D1_metabat $OUTDIR/D1-SRR4342129_checkm
+checkm analyze -t 10 -x fa $OUTDIR/D3-SRR4342133_checkm/lineage.ms $INDIR/D3_metabat $OUTDIR/D3-SRR4342133_checkm
+
+# qa: assess bins for contamination and completeness
+checkm qa -t 10 -o 1 -f $OUTDIR/D1-SRR4342129_checkm/qa.out $OUTDIR/D1-SRR4342129_checkm/lineage.ms $OUTDIR/D1-SRR4342129_checkm
+checkm qa -t 10 -o 1 -f $OUTDIR/D3-SRR4342133_checkm/qa.out $OUTDIR/D3-SRR4342133_checkm/lineage.ms $OUTDIR/D3-SRR4342133_checkm
