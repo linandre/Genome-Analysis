@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /scratch/6134926/4c91fd80-de0b-405c-a15d-fb9513761c9a
+# Target file:     /home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm/D1-SRR4342129_checkm/bins/D1-SRR4342129__metabat_output_2/genes.faa
+# Option settings: hmmsearch --domtblout /home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm/D1-SRR4342129_checkm/bins/D1-SRR4342129__metabat_output_2/hmmer.tree.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /scratch/6134926/4c91fd80-de0b-405c-a15d-fb9513761c9a /home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm/D1-SRR4342129_checkm/bins/D1-SRR4342129__metabat_output_2/genes.faa 
+# Current dir:     /home/andreak/Genome_Analysis/Genome-Analysis/code
+# Date:            Thu Apr 21 10:22:28 2022
+# [ok]
