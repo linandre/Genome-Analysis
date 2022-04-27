@@ -11,6 +11,7 @@
 # Load modules
 module load bioinfo-tools
 module load bwa
+module load MetaBat
 module load samtools
 
 # My commands to align my reads (raw DNA data) to my reference (megahit results)

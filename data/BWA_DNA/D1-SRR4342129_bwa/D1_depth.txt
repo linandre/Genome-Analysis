@@ -1,0 +1,1 @@
+contigName	contigLen	totalAvgDepth	bwa_DNA_D1-SRR4342129.bam	bwa_DNA_D1-SRR4342129.bam-var
