@@ -1,0 +1,37 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 4
+#SBATCH -t 02:00:00
+#SBATCH -J checkmdepth
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user stavroula.andreakou.9085@student.uu.se
+
+# Load modules
+module load bioinfo-tools
+module load CheckM
+
+# Set directories
+INDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth"
+OUTDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Checkm_depth"
+
+
+# Set a working directory that we want
+cd $OUTDIR 
+
+# Copy the CheckM data
+cp -av $CHECKM_DATA/2015_01_16/* .
+checkm data setRoot $PWD
+
+# Run the analyses with common workflow 
+checkm lineage_wf -t 10 -x fa --reduced_tree $INDIR/D1_metabat_depth/ $OUTDIR/D1-SRR4342129_checkm_depth
+checkm lineage_wf -t 10 -x fa --reduced_tree $INDIR/D3_metabat_depth/ $OUTDIR/D3-SRR4342133_checkm_depth
+
+# analyze: identify marker genes in bins --> <marker file> <bin folder> <output folder>
+checkm analyze -t 10 -x fa $OUTDIR/D1-SRR4342129_checkm_depth/lineage.ms $INDIR/D1_metabat_depth $OUTDIR/D1-SRR4342129_checkm_depth
+checkm analyze -t 10 -x fa $OUTDIR/D3-SRR4342133_checkm_depth/lineage.ms $INDIR/D3_metabat_depth $OUTDIR/D3-SRR4342133_checkm_depth
+
+# qa: assess bins for contamination and completeness
+checkm qa -t 10 -o 1 -f $OUTDIR/D1-SRR4342129_checkm_depth/qa.out $OUTDIR/D1-SRR4342129_checkm_depth/lineage.ms $OUTDIR/D1-SRR4342129_checkm_depth
+checkm qa -t 10 -o 1 -f $OUTDIR/D3-SRR4342133_checkm_depth/qa.out $OUTDIR/D3-SRR4342133_checkm_depth/lineage.ms $OUTDIR/D3-SRR4342133_checkm_depth
