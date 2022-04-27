@@ -3,7 +3,7 @@
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 15:00:00
+#SBATCH -t 10:00:00
 #SBATCH -J BWA_DNA
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user stavroula.andreakou.9085@student.uu.se
@@ -16,8 +16,8 @@ module load samtools
 
 # My commands to align my reads (raw DNA data) to my reference (megahit results)
 # For D1
-bwa index /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa
-bwa mem -t 10 /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa /home/andreak/Genome_Analysis/Genome-Analysis/raw_data/3_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz /home/andreak/Genome_Analysis/Genome-Analysis/raw_data/3_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz 2> /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D1-SRR4342129_bwa/bwa_DNA_D1-SRR4342129.sam
+#bwa index /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa
+#bwa mem -t 10 /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa /home/andreak/Genome_Analysis/Genome-Analysis/raw_data/3_Thrash_2017/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz /home/andreak/Genome_Analysis/Genome-Analysis/raw_data/3_Thrash_2017/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz 2> /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D1-SRR4342129_bwa/bwa_DNA_D1-SRR4342129.sam
 
 # For D3
 #bwa index /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs/final.contigs.fa

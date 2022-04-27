@@ -1,0 +1,28 @@
+Output depth matrix to /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D1-SRR4342129_bwa/D1_depth.txt
+Output pairedContigs lower triangle to /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D1-SRR4342129_bwa/D1_paired.txt
+Output matrix to /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D1-SRR4342129_bwa/D1_depth.txt
+Opening 1 bams
+[samopen] no @SQ lines in the header.
+Consolidating headers
+Allocating pairedContigs matrix: 0 MB over 1 threads
+Processing bam files
+Thread 0 finished: bwa_DNA_D1-SRR4342129.bam with 0 reads and 0 readsWellMapped
+Creating depth matrix file: /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D1-SRR4342129_bwa/D1_depth.txt
+Closing most bam files
+The data files have no paired contigs to report
+Closing last bam file
+Finished
+Output depth matrix to /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D3-SRR4342133_bwa/D3_depth.txt
+Output pairedContigs lower triangle to /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D3-SRR4342133_bwa/D3_paired.txt
+Output matrix to /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D3-SRR4342133_bwa/D3_depth.txt
+Opening 1 bams
+[samopen] no @SQ lines in the header.
+Consolidating headers
+Allocating pairedContigs matrix: 0 MB over 1 threads
+Processing bam files
+Thread 0 finished: bwa_DNA_D3-SRR4342133.bam with 0 reads and 0 readsWellMapped
+Creating depth matrix file: /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D3-SRR4342133_bwa/D3_depth.txt
+Closing most bam files
+The data files have no paired contigs to report
+Closing last bam file
+Finished

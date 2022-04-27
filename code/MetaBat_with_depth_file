@@ -3,7 +3,7 @@
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 15:00:00
+#SBATCH -t 02:00:00
 #SBATCH -J Metabatwithdepthfile
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user stavroula.andreakou.9085@student.uu.se
@@ -19,9 +19,9 @@ module load MetaBat
 #jgi_summarize_bam_contig_depths --outputDepth /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D3-SRR4342133_bwa/D3_depth.txt --pairedContigs /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D3-SRR4342133_bwa/D3_paired.txt /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D3-SRR4342133_bwa/*.bam
 
 # Metabat with depth file for D1
-metabat -i /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa D1_depth.txt -p D1_paired.txt --specific -v --saveTNF D1_saved.tnf --saveDistance D1_saved.gprob -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/D1_metabat_depth/D1-SRR4342129__metabat_depth_output -t 10 -v
+metabat -i /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa -a /home/andreak/Genome_Analysis/Genome-Analysis/data/BWA_DNA/D1-SRR4342129_bwa/D1_depth.txt -p D1_paired.txt --specific -v --saveTNF D1_saved.tnf --saveDistance D1_saved.gprob -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/D1_metabat_depth/D1-SRR4342129__metabat_depth_output -t 10 -v
 
 
 # Metabat with depth file for D3
-metabat -i /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs/final.contigs.fa D3_depth.txt -p D3_paired.txt --specific -v --saveTNF D3_saved.tnf --saveDistance D3_saved.gprob -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/D3_metabat_depth/D3-SRR4342133__metabat_depth_output -t 10 -v
+metabat -i /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs/final.contigs.fa -a /home/andreak/Genome-Analysis/data/BWA_DNA/D1-SRR4342129_bwa/D3_depth.txt -p D3_paired.txt --specific -v --saveTNF D3_saved.tnf --saveDistance D3_saved.gprob -o /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/D3_metabat_depth/D3-SRR4342133__metabat_depth_output -t 10 -v
 
