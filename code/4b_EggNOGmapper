@@ -13,11 +13,11 @@ module load bioinfo-tools
 module load eggNOG-mapper
 
 # Create files
-cd /proj/genomeanalysis2022/nobackup/work/andreak
-mkdir Eggnogmapper
-cd Eggnogmapper
-mkdir D1
-mkdir D3
+#cd /proj/genomeanalysis2022/nobackup/work/andreak
+#mkdir Eggnogmapper
+#cd Eggnogmapper
+#mkdir D1
+#mkdir D3
 
 # Sequence directories
 INDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth"

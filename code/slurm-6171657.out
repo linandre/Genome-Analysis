@@ -1,0 +1,851 @@
+EggNOG data 5.0 available at /sw/data/uppnex/eggNOG/5.0
+/var/spool/slurmd/job6171657/slurm_script: line 26: cd: /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/D1: No such file or directory
+1a_Trim_RNA
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 1a_Trim_RNA -o 1a_Trim_RNA --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/1a_Trim_RNA --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/1a_Trim_RNA.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+1b_Qc_DNA_RNA
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 1b_Qc_DNA_RNA -o 1b_Qc_DNA_RNA --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/1b_Qc_DNA_RNA --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/1b_Qc_DNA_RNA.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+1c_MegaHit
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 1c_MegaHit -o 1c_MegaHit --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/1c_MegaHit --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/1c_MegaHit.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+2a_MetaQuast
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 2a_MetaQuast -o 2a_MetaQuast --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/2a_MetaQuast --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/2a_MetaQuast.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+2b_MetaBat
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 2b_MetaBat -o 2b_MetaBat --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/2b_MetaBat --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/2b_MetaBat.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+2c_CheckM
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 2c_CheckM -o 2c_CheckM --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/2c_CheckM --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/2c_CheckM.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+3a_BWA_DNA
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 3a_BWA_DNA -o 3a_BWA_DNA --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/3a_BWA_DNA --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/3a_BWA_DNA.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+3b_MetaBat_with_depth_file
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 3b_MetaBat_with_depth_file -o 3b_MetaBat_with_depth_file --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/3b_MetaBat_with_depth_file --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/3b_MetaBat_with_depth_file.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+3c_CheckM_depth
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 3c_CheckM_depth -o 3c_CheckM_depth --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/3c_CheckM_depth --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/3c_CheckM_depth.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+4a_Prokka
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 4a_Prokka -o 4a_Prokka --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/4a_Prokka --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/4a_Prokka.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+4b_EggNOGmapper
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 4b_EggNOGmapper -o 4b_EggNOGmapper --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/4b_EggNOGmapper --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/4b_EggNOGmapper.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+core.15375
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i core.15375 -o core.15375 --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/core.15375 --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/core.15375.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+core.15376
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i core.15376 -o core.15376 --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/core.15376 --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/core.15376.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+README.md
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i README.md -o README.md --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/README.md --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/README.md.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+slurm-6171362.out
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i slurm-6171362.out -o slurm-6171362.out --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/slurm-6171362.out --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/slurm-6171362.out.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+slurm-6171657.out
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i slurm-6171657.out -o slurm-6171657.out --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/slurm-6171657.out --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/slurm-6171657.out.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+/var/spool/slurmd/job6171657/slurm_script: line 34: cd: /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/D3: No such file or directory
+1a_Trim_RNA
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 1a_Trim_RNA -o 1a_Trim_RNA --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/1a_Trim_RNA --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/1a_Trim_RNA.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+1b_Qc_DNA_RNA
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 1b_Qc_DNA_RNA -o 1b_Qc_DNA_RNA --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/1b_Qc_DNA_RNA --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/1b_Qc_DNA_RNA.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+1c_MegaHit
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 1c_MegaHit -o 1c_MegaHit --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/1c_MegaHit --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/1c_MegaHit.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+2a_MetaQuast
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 2a_MetaQuast -o 2a_MetaQuast --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/2a_MetaQuast --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/2a_MetaQuast.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+2b_MetaBat
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 2b_MetaBat -o 2b_MetaBat --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/2b_MetaBat --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/2b_MetaBat.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+2c_CheckM
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 2c_CheckM -o 2c_CheckM --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/2c_CheckM --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/2c_CheckM.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+3a_BWA_DNA
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 3a_BWA_DNA -o 3a_BWA_DNA --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/3a_BWA_DNA --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/3a_BWA_DNA.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+3b_MetaBat_with_depth_file
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 3b_MetaBat_with_depth_file -o 3b_MetaBat_with_depth_file --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/3b_MetaBat_with_depth_file --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/3b_MetaBat_with_depth_file.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+3c_CheckM_depth
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 3c_CheckM_depth -o 3c_CheckM_depth --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/3c_CheckM_depth --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/3c_CheckM_depth.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+4a_Prokka
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 4a_Prokka -o 4a_Prokka --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/4a_Prokka --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/4a_Prokka.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+4b_EggNOGmapper
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i 4b_EggNOGmapper -o 4b_EggNOGmapper --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/4b_EggNOGmapper --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/4b_EggNOGmapper.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+core.15375
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i core.15375 -o core.15375 --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/core.15375 --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/core.15375.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+core.15376
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i core.15376 -o core.15376 --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/core.15376 --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/core.15376.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+emappertmp_dmdn_2t637y3h
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_2t637y3h'
+emappertmp_dmdn__4q94wse
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn__4q94wse'
+emappertmp_dmdn_6igixckc
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_6igixckc'
+emappertmp_dmdn_8_p8f528
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_8_p8f528'
+emappertmp_dmdn_adnhu3wo
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_adnhu3wo'
+emappertmp_dmdn_awgadsxr
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_awgadsxr'
+emappertmp_dmdn_n44dqp02
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_n44dqp02'
+emappertmp_dmdn_rkurb1jr
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_rkurb1jr'
+emappertmp_dmdn_sxjmjpe_
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_sxjmjpe_'
+emappertmp_dmdn_u31ru5ju
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_u31ru5ju'
+emappertmp_dmdn_uzcezlhz
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_uzcezlhz'
+emappertmp_dmdn_v5fanhw9
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_v5fanhw9'
+emappertmp_dmdn_vo5un5u0
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_vo5un5u0'
+emappertmp_dmdn_w1uve9gg
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_w1uve9gg'
+emappertmp_dmdn_xi6pl_ud
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_xi6pl_ud'
+emappertmp_dmdn_z5hhcnhj
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+emapper.py: error: argument -i: invalid existing_file value: 'emappertmp_dmdn_z5hhcnhj'
+README.md
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i README.md -o README.md --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/README.md --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/README.md.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+slurm-6171362.out
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i slurm-6171362.out -o slurm-6171362.out --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/slurm-6171362.out --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/slurm-6171362.out.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
+slurm-6171657.out
+#  emapper-2.1.5-34206fb
+# emapper.py  --itype metagenome --cpu 6 -i slurm-6171657.out -o slurm-6171657.out --output_dir /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3
+[1;33m  /sw/bioinfo/eggNOG-mapper/2.1.5/snowy/lib/python3.8/site-packages/eggnogmapper/bin/diamond blastx -d /crex/data/eggNOG_data/5.0/eggnog_proteins.dmnd -q /domus/h1/andreak/Genome_Analysis/Genome-Analysis/code/slurm-6171657.out --threads 6 -o /crex/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D3/slurm-6171657.out.emapper.hits  --sensitive -e 0.001 --max-target-seqs 0 --max-hsps 0  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+Error running diamond: Error: Error detecting input file format. First line must begin with '>' (FASTA) or '@' (FASTQ).
