@@ -25,15 +25,15 @@ OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper"
 
 cd $INDIR/D1
 # Loop
-for fa in *
+for f in *
 do
-echo $fa
-emapper.py --itype metagenome --cpu 6 -i $fa -o $fa --output_dir $OUTDIR/D1
+echo $f
+emapper.py --itype metagenome --cpu 6 -i $f -o $f --output_dir $OUTDIR/D1
 done
 
 cd $INDIR/D3
-for fa in *
+for f in *
 do
-echo $fa
-emapper.py --itype metagenome --cpu 6 -i $fa -o $fa --output_dir $OUTDIR/D3
+echo $f
+emapper.py --itype metagenome --cpu 6 -i $f -o $f --output_dir $OUTDIR/D3
 done
