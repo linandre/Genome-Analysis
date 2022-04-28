@@ -12,28 +12,19 @@
 module load bioinfo-tools
 module load prokka
 
-# Create files
-cd /proj/genomeanalysis2022/nobackup/work/andreak
-mkdir Prokka
-cd Prokka
-mkdir D1
-mkdir D3
-
 # Sequence directories
-SEQDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/"
-OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Prokka"
+#SEQDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/"
+#OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Prokka"
 
-cd /proj/genomeanalysis2022/nobackup/work/andreak/Prokka/D1
 # Loop for annotation of all .fa 
-for fa in $SEQDIR/D1_metabat_depth/*
+for fa in /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/D1_metabat_depth/*
 do
 echo $fa
-prokka --metagenome --cpus 2 $fa --outdir $OUTDIR/D1/"$fa"_ann.out
+prokka --metagenome --cpus 2 $fa --outdir /proj/genomeanalysis2022/nobackup/work/andreak/Prokka/D1/"$fa"_ann.out
 done
 
-cd /proj/genomeanalysis2022/nobackup/work/andreak/Prokka/D3
-for fb in $SEQDIR/D3_metabat_depth/*
+for fb in /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth//D3_metabat_depth/*
 do
 echo $fb
-prokka --metagenome --cpus 2 $fb --outdir $OUTDIR/D3/"$fb"_ann.out
+prokka --metagenome --cpus 2 $fb --outdir /proj/genomeanalysis2022/nobackup/work/andreak/Prokka/D3/"$fb"_ann.out
 done
