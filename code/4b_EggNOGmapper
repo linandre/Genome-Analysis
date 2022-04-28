@@ -28,12 +28,12 @@ cd $INDIR/D1
 for f in *
 do
 echo $f
-emapper.py --itype metagenome --cpu 6 -i $f -o $f --output_dir $OUTDIR/D1
+emapper.py --itype metagenome -i $f -o $f --output_dir $OUTDIR/D1 --cpu 6
 done
 
 cd $INDIR/D3
 for f in *
 do
 echo $f
-emapper.py --itype metagenome --cpu 6 -i $f -o $f --output_dir $OUTDIR/D3
+emapper.py --itype metagenome -i $f -o $f --output_dir $OUTDIR/D3 --cpu 6
 done
