@@ -23,6 +23,7 @@ mkdir D3
 SEQDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth/"
 OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Prokka"
 
+cd /proj/genomeanalysis2022/nobackup/work/andreak/Prokka/D1
 # Loop for annotation of all .fa 
 for fa in $SEQDIR/D1_metabat_depth/*
 do
@@ -30,6 +31,7 @@ echo $fa
 prokka --metagenome --cpus 2 $fa --outdir $OUTDIR/D1/"$fa"_ann.out
 done
 
+cd /proj/genomeanalysis2022/nobackup/work/andreak/Prokka/D3
 for fb in $SEQDIR/D3_metabat_depth/*
 do
 echo $fb
