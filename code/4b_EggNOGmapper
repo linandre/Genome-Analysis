@@ -23,17 +23,17 @@ module load eggNOG-mapper
 INDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth"
 OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper"
 
-cd $INDIR/D1
+cd $INDIR/D1_metabat_depth
 # Loop
-for f in *
+for fa in *
 do
-echo $f
-emapper.py --itype metagenome -i $f -o $f --output_dir $OUTDIR/D1 --cpu 6
+echo $fa
+emapper.py --itype metagenome -i $fa -o $fa --output_dir $OUTDIR/D1 --cpu 6
 done
 
-cd $INDIR/D3
-for f in *
+cd $INDIR/D_metabat_depth
+for fa in *
 do
-echo $f
-emapper.py --itype metagenome -i $f -o $f --output_dir $OUTDIR/D3 --cpu 6
+echo $fa
+emapper.py --itype metagenome -i $fa -o $fa --output_dir $OUTDIR/D3 --cpu 6
 done
