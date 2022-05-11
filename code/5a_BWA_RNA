@@ -21,11 +21,12 @@ OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/"
 
 # Combine all .fa bin files into one aggregated file
 # D1
-for n in *.fa
+for n in D1-SRR4342129__metabat_depth_output.*.fa
 do
 cd $INDIR/D1_metabat_depth/
 cp $INDIR/D1_metabat_depth/${n} $OUTDIR/Metabat_norm/D1/${n} #πρεπει να δημιουργησω τους φακελους Metabat_norm & D1 στο nobackup
 bwa index $OUTDIR/Metabat_norm/D1/${n} 2> $OUTDIR/bwa-rna/D1/${n}_index.out #πρεπει να δημιουργησω τους φακελους D1 στο nobackup μεσα στο bwa-rna
+
 
 cd $OUTDIR/Metabat_norm/D1
 bwa mem $OUTDIR/Metabat_norm/D1/${n} $SEQDIR/RNA_trim_39.left_paired.trimmed.fastq.gz $SEQDIR/RNA_trim_39.right_paired.trimmed.fastq.gz 2> $OUTDIR/bwa-rna/D1/${n}_mem.out | samtools sort -o $OUTDIR/bwa-rna/D1/${n}_sorted.bam
