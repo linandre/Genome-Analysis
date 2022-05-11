@@ -29,5 +29,4 @@ bwa index $OUTDIR/Metabat_norm/D1/${n} 2> $OUTDIR/bwa-rna/D1/${n}_index.out #Ï€Ï
 
 cd $OUTDIR/Metabat_norm/D1
 bwa mem $OUTDIR/Metabat_norm/D1/${n} $SEQDIR/RNA_trim_39.left_paired.trimmed.fastq.gz $SEQDIR/RNA_trim_39.right_paired.trimmed.fastq.gz 2> $OUTDIR/bwa-rna/D1/${n}_mem.out | samtools sort -o $OUTDIR/bwa-rna/D1/${n}_sorted.bam
-
-
+done
