@@ -23,8 +23,8 @@ echo $fa
 prokka --metagenome --cpus 2 $fa --outdir /proj/genomeanalysis2022/nobackup/work/andreak/Prokka/D1/"$fa"_ann.out
 done
 
-for fb in /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth//D3_metabat_depth/*
+for fa in /home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth//D3_metabat_depth/*
 do
-echo $fb
-prokka --metagenome --cpus 2 $fb --outdir /proj/genomeanalysis2022/nobackup/work/andreak/Prokka/D3/"$fb"_ann.out
+echo $fa
+prokka --metagenome --cpus 2 $fa --outdir /proj/genomeanalysis2022/nobackup/work/andreak/Prokka/D3/"$fa"_ann.out
 done
