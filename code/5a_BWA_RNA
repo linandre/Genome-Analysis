@@ -24,8 +24,9 @@ OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/"
 cd $INDIR/D1_metabat_depth
 for bin in *.fa
 do
-bwa index $bin > ${bin}_index.out
-bwa mem -t 10 $bin $SEQDIR/RNA_trim_SRR4342137.forward_paired.trimmed.fastq.gz $SEQDIR/RNA_trim_SRR4342137.reverse_paired.trimmed.fastq.gz >$OUTDIR/bwa-rna/D1/$bin.sam | samtools sort -o $OUTDIR/bwa-rna/D1/${bin}_sorted.bam
+bwa index $bin 
+bwa mem -t 10 $bin $SEQDIR/RNA_trim_SRR4342137.forward_paired.trimmed.fastq.gz $SEQDIR/RNA_trim_SRR4342137.reverse_paired.trimmed.fastq.gz 2>$OUTDIR/bwa-rna/D1/${bin}.sam 
+#| samtools sort -o $OUTDIR/bwa-rna/D1/${bin}_sorted.bam
 done
 
 #sample D3
