@@ -18,14 +18,13 @@ module load samtools
 INDIR="/proj/genomeanalysis2022/nobackup/work/andreak/bwa-rna"
 OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Samtools/"
 
-# Index BAM files
-samtools index $INDIR/D1/D1_sorted.bam
-samtools index $INDIR/D3/D3_sorted.bam
-
-# Create summary table with statistics 
-samtools coverage $INDIR/D1/D1_sorted.bam -o $OUTDIR/D1/D1_coverage
-samtools coverage $INDIR/D3/D3_sorted.bam -o $OUTDIR/D3/D3_coverage
-
-# Depth for per base coverage instead of average
-samtools depth $INDIR/D1/D1_sorted.bam -o $OUTDIR/D1/D1_depth  
-samtools depth $INDIR/D3/D3_sorted.bam -o $OUTDIR/D3/D3_depth  
+#sample D1
+cd $INDIR/D1
+for i in D1.*_sorted.bam
+do
+samtools index ${i}
+samtools view $INDIR/D1/${i} -o $OUTDIR/D1/${i}.sam
+samtools coverage $INDIR/D1/${i} -o $OUTDIR/D1/${i}_coverage
+samtools depth $INDIR/D1/${i} -o $OUTDIR/D1/${i}_depth
+samtools stats $INDIR/D1/${i} | grep ^SN | cut -f 2- > $OUTDIR/D1/${i}_summary  
+done
