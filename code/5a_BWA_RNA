@@ -25,8 +25,7 @@ cd $INDIR/D1_metabat_depth
 for bin in *.fa
 do
 bwa index $bin 
-bwa mem -t 10 $bin $SEQDIR/RNA_trim_37.left_paired.trimmed.fastq.gz $SEQDIR/RNA_trim_37.right_paired.trimmed.fastq.gz 2>$OUTDIR/bwa-rna/D1/${bin}.sam 
-#| samtools sort -o $OUTDIR/bwa-rna/D1/${bin}_sorted.bam
+bwa mem -t 10 $bin $SEQDIR/RNA_trim_37.left_paired.trimmed.fastq.gz $SEQDIR/RNA_trim_37.right_paired.trimmed.fastq.gz 2>$OUTDIR/bwa-rna/D1/${bin}.sam | samtools sort -o $OUTDIR/bwa-rna/D1/$bin_sorted.bam
 done
 
 #sample D3
