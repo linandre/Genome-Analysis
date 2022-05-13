@@ -1,4 +1,4 @@
-!/bin/bash -l
+#!/bin/bash -l
 #SBATCH -A uppmax2022-2-5
 #SBATCH -M snowy
 #SBATCH -p core
