@@ -1,0 +1,31 @@
+!/bin/bash -l
+#SBATCH -A uppmax2022-2-5
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 10:00:00
+#SBATCH -J Samtools
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user stavroula.andreakou.9085@student.uu.se
+
+# Reading RNA coverage using samtools  
+
+# Load modules 
+module load bioinfo-tools 
+module load samtools
+
+# Sequence directories
+INDIR="/proj/genomeanalysis2022/nobackup/work/andreak/bwa-rna"
+OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Samtools/"
+
+# Index BAM files
+samtools index $INDIR/D1_sorted.bam
+samtools index $INDIR/D3_sorted.bam
+
+# Create summary table with statistics 
+samtools coverage $INDIR/D1/D1_sorted.bam -o $OUTDIR/D1/D1_coverage
+samtools coverage $INDIR/D3/D3_sorted.bam -o $OUTDIR/D3/D3_coverage
+
+# Depth for per base coverage instead of average
+samtools depth $INDIR/D1/D1_sorted.bam -o $OUTDIR/D1/D1_depth  
+samtools depth $INDIR/D3/D3_sorted.bam -o $OUTDIR/D3/D3_depth  
