@@ -19,8 +19,8 @@ INDIR="/proj/genomeanalysis2022/nobackup/work/andreak/bwa-rna"
 OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Samtools/"
 
 # Index BAM files
-samtools index $INDIR/D1_sorted.bam
-samtools index $INDIR/D3_sorted.bam
+samtools index $INDIR/D1/D1_sorted.bam
+samtools index $INDIR/D3/D3_sorted.bam
 
 # Create summary table with statistics 
 samtools coverage $INDIR/D1/D1_sorted.bam -o $OUTDIR/D1/D1_coverage
