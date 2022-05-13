@@ -22,14 +22,11 @@ OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/"
 #sample D1
 #BWA first needs to construct the FM-index for the reference genome (the index command) -- bwa index ref.fa
 cd $INDIR/D1_metabat_depth
-for n in *.fa
+for bin in *.fa
 do
-cp $INDIR/D1_metabat_depth/${n} $OUTDIR/bwa-rna/D1/${n}
-bwa index $OUTDIR/bwa-rna/D1/${n} 2> $OUTDIR/bwa-rna/D1/${n}_index.out
-
-cd $OUTDIR/bwa-rna/D1/
+bwa index $bin 
 #Alignment algorithms are invoked with different sub-commands: aln/samse/sampe for BWA-backtrack, bwasw for BWA-SW and mem for the BWA-MEM algorithm -- bwa mem ref.fa read1.fq read2.fq > aln-pe.sam | Sort the alignments for later processing and store in a binary format -- samtools sort sample.sam -o sample.bam 
-bwa mem $OUTDIR/bwa-rna/D1/${n} $SEQDIR/RNA_trim_SRR4342137.forward_paired.trimmed.fastq.gz $SEQDIR/RNA_trim_SRR4342137.reverse_paired.trimmed.fastq.gz 2>$OUTDIR/bwa-rna/D1/${n}_mem.out | samtools sort -o $OUTDIR/bwa-rna/D1//${n}_sorted.bam
+bwa mem -t 10 $bin $SEQDIR/RNA_trim_SRR4342137.forward_paired.trimmed.fastq.gz $SEQDIR/RNA_trim_SRR4342137.reverse_paired.trimmed.fastq.gz >$OUTDIR/bwa-rna/D1/${bin}.sam | samtools sort -o $OUTDIR/bwa-rna/D1//${bin}_sorted.bam
 done
 
 #sample D3
