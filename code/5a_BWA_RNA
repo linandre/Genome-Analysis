@@ -22,7 +22,7 @@ OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/"
 #sample D1
 #BWA first needs to construct the FM-index for the reference genome (the index command) -- bwa index ref.fa
 cd $INDIR/D1_metabat_depth
-for n in D1-SRR4342129__metabat_depth_output.*.fa
+for n in *.fa
 do
 cp $INDIR/D1_metabat_depth/${n} $OUTDIR/bwa-rna/D1/${n}
 bwa index $OUTDIR/bwa-rna/D1/${n} 2> $OUTDIR/bwa-rna/D1/${n}_index.out
