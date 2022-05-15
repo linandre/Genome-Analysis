@@ -19,12 +19,23 @@ INDIR="/proj/genomeanalysis2022/nobackup/work/andreak/bwa-rna"
 OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Samtools/"
 
 #sample D1
-cd $INDIR/D1
-for i in D1-SRR4342129__metabat_depth_output.*.fa_sorted.bam
+#cd $INDIR/D1
+#for i in D1-SRR4342129__metabat_depth_output.*.fa_sorted.bam
+#do
+#samtools index ${i}
+#samtools view $i -o $OUTDIR/D1/${i}.sam
+#samtools coverage $i -o $OUTDIR/D1/${i}_coverage
+#samtools depth $i -o $OUTDIR/D1/${i}_depth
+#samtools stats $i | grep ^SN | cut -f 2- > $OUTDIR/D1/${i}_summary  
+#done
+
+#sample D3
+cd $INDIR/D3
+for i in D3-SRR4342133__metabat_depth_output.*.fa_sorted.bam
 do
 samtools index ${i}
-samtools view $i -o $OUTDIR/D1/${i}.sam
-samtools coverage $i -o $OUTDIR/D1/${i}_coverage
-samtools depth $i -o $OUTDIR/D1/${i}_depth
-samtools stats $i | grep ^SN | cut -f 2- > $OUTDIR/D1/${i}_summary  
+samtools view $i -o $OUTDIR/D3/${i}.sam
+samtools coverage $i -o $OUTDIR/D3/${i}_coverage
+samtools depth $i -o $OUTDIR/D3/${i}_depth
+samtools stats $i | grep ^SN | cut -f 2- > $OUTDIR/D3/${i}_summary  
 done
