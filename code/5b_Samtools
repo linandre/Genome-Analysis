@@ -23,8 +23,8 @@ cd $INDIR/D1
 for i in D1.*_sorted.bam
 do
 samtools index ${i}
-samtools view $INDIR/D1/${i} -o $OUTDIR/D1/${i}.sam
-samtools coverage $INDIR/D1/${i} -o $OUTDIR/D1/${i}_coverage
-samtools depth $INDIR/D1/${i} -o $OUTDIR/D1/${i}_depth
-samtools stats $INDIR/D1/${i} | grep ^SN | cut -f 2- > $OUTDIR/D1/${i}_summary  
+samtools view $i -o $OUTDIR/D1/${i}.sam
+samtools coverage $i -o $OUTDIR/D1/${i}_coverage
+samtools depth $i -o $OUTDIR/D1/${i}_depth
+samtools stats $i | grep ^SN | cut -f 2- > $OUTDIR/D1/${i}_summary  
 done
