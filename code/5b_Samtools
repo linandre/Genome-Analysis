@@ -20,7 +20,7 @@ OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Samtools/"
 
 #sample D1
 cd $INDIR/D1
-for i in D1.*_sorted.bam
+for i in D1-SRR4342129__metabat_depth_output.*.fa_sorted.bam
 do
 samtools index ${i}
 samtools view $i -o $OUTDIR/D1/${i}.sam
