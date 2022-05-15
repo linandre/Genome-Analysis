@@ -35,5 +35,5 @@ echo $bin
 cd $OUTDIR/D1
 mkdir $bin
 cd $bin
-htseq-count -f bam -t CDS -r pos -i ID $BAMDIR/D1_normalized.${bin}.fa_sorted.bam $SEQDIR/D1/$gff > $OUTDIR/D1_htseq_${bin}.counts
+htseq-count -f bam -t CDS -r pos -i ID $INDIR/bwa-rna/D1/D1-SRR4342129__metabat_depth_output.${bin}.fa_sorted.bam $INDIR/Eggnogmapper/D1/$gff > $OUTDIR/D1/D1_htseq_${bin}.counts
 done
