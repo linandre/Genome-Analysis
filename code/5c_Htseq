@@ -19,15 +19,15 @@ OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Htseq"
 
 # Index bam files
 cd $INDIR/bwa-rna/D1
-for bam in *.bam
+for bam in D1-SRR4342129__metabat_depth_output.*.fa_sorted.bam
 do
 echo $bam
 samtools index $bam
 done 
 
 # Run htseq
-cd $INDIR/Eggnogmapper/D1
-for gff in *.gff
+cd $INDIR/Eggnogmapper/D1/
+for gff in D1-SRR4342129__metabat_depth_output.*.fa.emapper.gff 
 do
 echo $gff
 bin=$(echo $gff | cut -f2 -d ".")
