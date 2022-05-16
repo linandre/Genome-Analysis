@@ -14,7 +14,7 @@ module load htseq
 module load samtools 
 
 # Sequence directories
-INQDIR="/proj/genomeanalysis2022/nobackup/work/andreak"
+INDIR="/proj/genomeanalysis2022/nobackup/work/andreak"
 OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Htseq"
 
 
