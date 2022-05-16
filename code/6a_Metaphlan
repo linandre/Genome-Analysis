@@ -20,5 +20,5 @@ OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Metaphlan"
 metaphlan --install --bowtie2db $OUTDIR/install
 
 # Run MetaPhlAn
-metaphlan $INDIR/SRR4342129_1.paired.trimmed.fastq.gz,$SEQDIR/SRR4342129_2.paired.trimmed.fastq.gz --bowtie2db $OUTDIR/install --bowtie2out $OUTDIR/bt2out_D1.txt --input_type fastq --nproc 2 --input_type fastq --add_viruses -o $OUTDIR/metaphlan_D1.txt
-metaphlan $INDIR/SRR4342133_1.paired.trimmed.fastq.gz,$SEQDIR/SRR4342133_2.paired.trimmed.fastq.gz --bowtie2db $OUTDIR/install --bowtie2out $OUTDIR/bt2out_D3.txt --input_type fastq --nproc 2 --input_type fastq --add_viruses -o $OUTDIR/metaphlan_D3.txt
+metaphlan $INDIR/SRR4342129_1.paired.trimmed.fastq.gz,$INDIR/SRR4342129_2.paired.trimmed.fastq.gz --bowtie2db $OUTDIR/install --bowtie2out $OUTDIR/bt2out_D1.txt --input_type fastq --nproc 2 --input_type fastq --add_viruses -o $OUTDIR/metaphlan_D1.txt
+metaphlan $INDIR/SRR4342133_1.paired.trimmed.fastq.gz,$INDIR/SRR4342133_2.paired.trimmed.fastq.gz --bowtie2db $OUTDIR/install --bowtie2out $OUTDIR/bt2out_D3.txt --input_type fastq --nproc 2 --input_type fastq --add_viruses -o $OUTDIR/metaphlan_D3.txt
