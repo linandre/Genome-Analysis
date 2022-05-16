@@ -18,27 +18,28 @@ INDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Prokka"
 OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Phyloplan"
 
 #rename files to not have the execution date
-: 'cd $INDIR/D1/
-for D1_prokkabins in *ann.out
-do
-echo $D1_prokkabins
-for D1_prokkafiles in $D1_prokkabins/*
-do
-echo $D1_prokkafiles
-mv "$D1_prokkafiles" "${D1_prokkafiles/PROKKA_05112022/$D1_prokkabins}"
-done
-done
-cd $INDIR/D3/
-for D3_prokkabins in *ann.out
-do
-echo $D3_prokkabins
-for D3_prokkafiles in $D3_prokkabins/*
-do
-echo $D3_prokkafiles
-mv "$D3_prokkafiles" "${D3_prokkafiles/PROKKA_05112022/$D3_prokkabins}"
-done
-done
-'
+#cd $INDIR/D1/
+#for D1_prokkabins in *ann.out
+#do
+#echo $D1_prokkabins
+#for D1_prokkafiles in $D1_prokkabins/*
+#do
+#echo $D1_prokkafiles
+#mv "$D1_prokkafiles" "${D1_prokkafiles/PROKKA_05112022/$D1_prokkabins}"
+#done
+#done
+
+#cd $INDIR/D3/
+#for D3_prokkabins in *ann.out
+#do
+#echo $D3_prokkabins
+#for D3_prokkafiles in $D3_prokkabins/*
+#do
+#echo $D3_prokkafiles
+#mv "$D3_prokkafiles" "${D3_prokkafiles/PROKKA_05112022/$D3_prokkabins}"
+#done
+#done
+
 # Symlink the phylophlan data files
 #cd  $OUTDIR/
 mkdir data
@@ -49,15 +50,10 @@ mkdir data
 #ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/data/ppafull.tax.txt .
 #ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/taxcuration/ $OUTDIR
 
-: ' 
-# Prokka output will be the input for phylophlan since it has DNA/AA-sequence for the genes in the bins/genome (and metabat only had DNA-sequence for bins/genome)
-ln -s $INDIR/D1/*ann.out/*.faa $OUTDIR/D1/
-ln -s $INDIR/D3/*ann.out/*.faa $OUTDIR/D3/
-'
 
 # Soft link the input data to phylophlans input directory
-ln -s $INDIR/D1/*ann.out/*.faa $OUTDIR/D1/
-ln -s $INDIR/D3/*ann.out/*.faa $OUTDIR/D3/
+#ln -s $INDIR/D1/*ann.out/*.faa $OUTDIR/D1/
+#ln -s $INDIR/D3/*ann.out/*.faa $OUTDIR/D3/
 
 # Run pylophlan 
 cd $OUTDIR
