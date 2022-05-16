@@ -1,0 +1,24 @@
+#!/bin/bash -l
+#SBATCH -A uppmax2022-2-5
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 10:00:00
+#SBATCH -J metaphlan
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user stavroula.andreakou.9085@student.uu.se
+
+# Load modules
+module load bioinfo-tools
+module load MetaPhlAn3/3.0.8 BioBakery
+
+# Path to sequence directory and output directories
+INDIR="/home/andreak/Genome_Analysis/3_Thrash_2017/DNA_trimmed"
+OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Metaphlan"
+
+# Install MetaPhlAn
+metaphlan --install --bowtie2db $OUTDIR/install
+
+# Run MetaPhlAn
+metaphlan $INDIR/SRR4342129_1.paired.trimmed.fastq.gz,$SEQDIR/SRR4342129_2.paired.trimmed.fastq.gz --bowtie2db $OUTDIR/install --bowtie2out $OUTDIR/bt2out_D1.txt --input_type fastq --nproc 2 --input_type fastq --add_viruses -o $OUTDIR/metaphlan_D1.txt
+metaphlan $INDIR/SRR4342133_1.paired.trimmed.fastq.gz,$SEQDIR/SRR4342133_2.paired.trimmed.fastq.gz --bowtie2db $OUTDIR/install --bowtie2out $OUTDIR/bt2out_D3.txt --input_type fastq --nproc 2 --input_type fastq --add_viruses -o $OUTDIR/metaphlan_D3.txt
