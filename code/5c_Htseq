@@ -18,34 +18,23 @@ INQDIR="/proj/genomeanalysis2022/nobackup/work/andreak"
 OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Htseq"
 
 
-cd $INDIR/Eggnogmapper/D1
-for gff in *.gff
-do
-echo $gff
-bin=$(echo $gff | cut -f3 -d ".")
-echo $bin
-cd $INDIR/bwa-rna/D1
-cd $bin 
-htseq-count -f bam -t CDS -r pos -i ID *.bam $INDIR/Eggnogmapper/D1/$gff > $OUTDIR/D1/D1_htseq_${bin}.counts
-done
-
 # Index bam files
-#cd $INDIR/bwa-rna/D1
-#for bam in D1-SRR4342129__metabat_depth_output.*.fa_sorted.bam
-#do
-#echo $bam
-#samtools index $bam
-#done 
+cd $INDIR/bwa-rna/D1
+for bam in *.bam
+do
+echo $bam
+samtools index $bam
+done 
 
 # Run htseq
-#cd $INDIR/Eggnogmapper/D1/
-#for gff in D1-SRR4342129__metabat_depth_output.*.fa.emapper.gff 
-#do
-#echo $gff
-#bin=$(echo $gff | cut -f2 -d ".")
-#echo $bin
-#cd $OUTDIR/D1
-#mkdir $bin
-#cd $bin
-#htseq-count -f bam -t CDS -r pos -i ID $INDIR/bwa-rna/D1/D1-SRR4342129__metabat_depth_output.${bin}.fa_sorted.bam $INDIR/Eggnogmapper/D1/$gff > $OUTDIR/D1/D1_htseq_${bin}.counts
-#done
+cd $INDIR/Eggnogmapper/D1/
+for gff in *.gff 
+do
+echo $gff
+bin=$(echo $gff | cut -f2 -d ".")
+echo $bin
+cd $OUTDIR/D1
+mkdir $bin
+cd $bin
+htseq-count -f bam -t CDS -r pos -i ID $INDIR/bwa-rna/D1/D1-SRR4342129__metabat_depth_output.${bin}.fa_sorted.bam $INDIR/Eggnogmapper/D1/$gff > $OUTDIR/D1/D1_htseq_${bin}.counts
+done
