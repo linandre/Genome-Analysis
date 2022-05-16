@@ -27,14 +27,14 @@ samtools index $bam
 done 
 
 # Run htseq
-#cd /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/
-#for gff in *.gff 
-#do
-#echo $gff
-#bin=$(echo $gff | cut -f2 -d ".")
-#echo $bin
-#cd $OUTDIR/D1
-#mkdir $bin
+cd /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/
+for gff in *.gff 
+do
+echo $gff
+bin=$(echo $gff | cut -f2 -d ".")
+echo $bin
+cd $OUTDIR/D1/
+mkdir $bin
 cd $bin
-#htseq-count -f bam -t CDS -r pos -i ID $INDIR/bwa-rna/D1/D1-SRR4342129__metabat_depth_output.${bin}.fa_sorted.bam $INDIR/Eggnogmapper/D1/$gff > $OUTDIR/D1/D1_htseq_${bin}.counts
-#done
+htseq-count -f bam -t CDS -r pos -i ID $INDIR/bwa-rna/D1/D1-SRR4342129__metabat_depth_output.${bin}.fa_sorted.bam $INDIR/Eggnogmapper/D1/$gff > $OUTDIR/D1/D1_htseq_${bin}.counts
+done
