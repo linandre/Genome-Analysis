@@ -19,7 +19,7 @@ OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Htseq"
 
 
 # Index bam files
-cd $INDIR/bwa-rna/D1
+cd /proj/genomeanalysis2022/nobackup/work/andreak/bwa-rna/D1/
 for bam in *.bam
 do
 echo $bam
@@ -27,7 +27,7 @@ samtools index $bam
 done 
 
 # Run htseq
-cd $INDIR/Eggnogmapper/D1/
+cd /proj/genomeanalysis2022/nobackup/work/andreak/Eggnogmapper/D1/
 for gff in *.gff 
 do
 echo $gff
