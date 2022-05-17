@@ -40,20 +40,20 @@ checkm len_hist -x fa $INDIR/D3_metabat $OUTDIR/D3/D3_len_hist
 checkm unbinned -x fa $INDIR/D1_metabat /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa D1_unbinned.out D1_unbinned_stats.out
 checkm unbinned -x fa $INDIR/D3_metabat /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs/final.contigs.fa D3_unbinned.out D3_unbinned_stats.out
 
-checkm tetra -t 2 /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa D1_tetra.out
-checkm tetra -t 2 home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs/final.contigs.fa D3_tetra.out
+checkm tetra -t 2 /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D1-SRR4342129_contigs/final.contigs.fa $OUTDIR/D1/D1_tetra.out
+checkm tetra -t 2 /home/andreak/Genome_Analysis/Genome-Analysis/data/Megahit/D3-SRR4342133_contigs/final.contigs.fa $OUTDIR/D3/D3_tetra.out
 
 # Taxonomy pipeline which includes taxon_set, analyze and qa.
 
-checkm taxonomy_wf -t 2 -x fa domain Bacteria $INDIR/D1_metabat D1_taxonomy_wf
-checkm taxonomy_wf -t 2 -x fa domain Bacteria $INDIR/D3_metabat D3_taxonomy_wf
+checkm taxonomy_wf -t 2 -x fa domain Bacteria $INDIR/D1_metabat $OUTDIR/D1/D1_taxonomy_wf
+checkm taxonomy_wf -t 2 -x fa domain Bacteria $INDIR/D3_metabat $OUTDIR/D3/D3_taxonomy_wf
 
 # Extra QA because I wanted better output
 
-checkm qa -t 2 -o 2 D1_taxonomy_wf/Bacteria.ms D1_taxonomy_wf > D1_qa.out
-checkm qa -t 2 -o 2 D3_taxonomy_wf/Bacteria.ms D3_taxonomy_wf > D3_qa.out
+checkm qa -t 2 -o 2 $OUTDIR/D1/D1_taxonomy_wf/Bacteria.ms $OUTDIR/D1/D1_taxonomy_wf > $OUTDIR/D1/D1_qa.out
+checkm qa -t 2 -o 2 $OUTDIR/D3/D3_taxonomy_wf/Bacteria.ms $OUTDIR/D3/D3_taxonomy_wf > $OUTDIR/D3/D3_qa.out
 
 # Finally, running the qa plot
 
-checkm bin_qa_plot -x fa D1_taxonomy_wf $INDIR/D1_metabat D1_bin_qa_plot
-checkm bin_qa_plot -x fa D3_taxonomy_wf $INDIR/D3_metabat D3_bin_qa_plot
+checkm bin_qa_plot -x fa $OUTDIR/D1/D1_taxonomy_wf $INDIR/D1_metabat $OUTDIR/D1/D1_bin_qa_plot
+checkm bin_qa_plot -x fa $OUTDIR/D3/D3_taxonomy_wf $INDIR/D3_metabat $OUTDIR/D3/D3_bin_qa_plot
