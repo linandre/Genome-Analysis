@@ -30,10 +30,6 @@ module load CheckM
 
 # CheckM commands to run
 
-checkm len_plot -x fa $INDIR/D1_metabat $OUTDIR/D1/D1_len_plots
-checkm len_plot -x fa $INDIR/D3_metabat $OUTDIR/D3/D3_len_plots
-
-
 checkm len_hist -x fa $INDIR/D1_metabat $OUTDIR/D1/D1_len_hist
 checkm len_hist -x fa $INDIR/D3_metabat $OUTDIR/D3/D3_len_hist
 
