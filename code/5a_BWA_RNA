@@ -18,7 +18,6 @@ INDIR="/home/andreak/Genome_Analysis/Genome-Analysis/data/Metabat_depth"
 SEQDIR="/proj/genomeanalysis2022/nobackup/work/andreak/Trimmomatic"
 OUTDIR="/proj/genomeanalysis2022/nobackup/work/andreak/"
 
-#onebyone
 #sample D1
 #BWA first needs to construct the FM-index for the reference genome (the index command) -- bwa index ref.fa
 #cd $INDIR/D1_metabat_depth
